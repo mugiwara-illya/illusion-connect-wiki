@@ -1,0 +1,33 @@
+{
+    "name": "Jason",
+    "introduction": "I will find a way to heal Nightmare Lords, even if I have to become a devil.",
+    "class": "HEALER",
+    "faction": "SEED",
+    "energyCost": 18,
+    "attributes": "${d['attribute.lens4']s} ${d['attribute.lens5']}",
+    "passiveSkill": {
+        "name": "Sacred Vow",
+        "description": "I promise to do my duties, to seek my patient's health and happiness. When Jason joins the battle, restores HP equal to ATK*265% ${d['lens5.hp']} and reduces Rage by 300 ${d['lens5.rage']} for all allies and enemies."
+    },
+    "uniqueSkill": {
+        "name": "Glory of Life",
+        "description": "I will do everything I can to save a person's life, even death cannot take away their pride. Jason revives the last partner who dies and gives them 35% HP and 1000 Rage. ${d.lens4}"
+    },
+    "specialSkill": {
+        "name": "Emergency Rescue",
+        "description": "My priority is my patient's health, I'll save them no matter the circumstance. Jason restores HP equal to ATK*150% ${d.lens6} to the partner with the lowest HP, doubles the healing amount if HP is below 30%."
+    },
+    "normalSkill": {
+        "name": "Pure Healing",
+        "description": "I give my life to medicine and mankind. Jason restores HP equal to ATK*100% to the partner with the lowest HP."
+    },
+    "templateData": {
+        "lens4": "Increases the DMG Rate of revived partners by 30%.",
+        "attribute.lens4": "Increases basic HP by 20%.",
+        "lens5.hp": "(+65%)",
+        "lens5.rage": "(+200)",
+        "attribute.lens5": "Increases basic ATK by 20%.",
+        "lens6": "(+50%)",
+        "attribute.lens6": "Chance to use Special Skill +15%."
+    }
+}
