@@ -1,0 +1,34 @@
+{
+    "name": "Test",
+    "introduction": "Miyuki is Phoenix's Director of Asia and the heir of the Soga family. She was born at the top of the world and remains so. Her business acumen is off the charts, but she is carefree and loves to try out new things.\nAs the only heir to the Suga family, Miyuki was born with a silver spoon. She has just about any privilege imaginable and near-infinite wealth. She is honest and rarely resorts to manipulation, but her comprehensive understanding of how the world works and how to get what she wants is exactly why no one can be spared.",
+    "class": "SPELL",
+    "faction": "PHOENIX",
+    "energyCost": 15,
+    "attributes": "${d['attribute.lens4']s} ${d['attribute.lens5']} ${d['attribute.awakening']}",
+    "passiveSkill": {
+        "name": "Commercial Strength",
+        "description": "All of Miyuki's attacks decrease target's Rage by an additional 330. ${d.lens5}"
+    },
+    "uniqueSkill": {
+        "name": "Fortune Caller",
+        "description": "Attacks all enemies and deals ATK*215% ${d.awakening ? d.awakening : d.lens4} damage."
+    },
+    "specialSkill": {
+        "name": "Heaven's Blessing",
+        "description": "Miyuki summons a gigantic fan to attack enemies in one column, dealing 120% damage. ${d.lens6} ${d['attribute.lens6']}"
+    },
+    "normalSkill": {
+        "name": "Hurl",
+        "description": "Attacks a single enemy and deals ATK*105% damage."
+    },
+    "templateData": {
+        "lens4": "(+55%)",
+        "attribute.lens4": "Increases basic HP by 20%.",
+        "lens5": "Reduces enemy Leader's Rage by 200.",
+        "attribute.lens5": "Increases basic ATK by 20%.",
+        "lens6": "Increases DEF Penetration by 30% when attacking.",
+        "attribute.lens6": "Chance to use Special Skill +15%.",
+        "awakening": "(+85%)",
+        "attribute.awakening": "Increase DMG Rate and DMG RES Rate by 10%."
+    }
+}
