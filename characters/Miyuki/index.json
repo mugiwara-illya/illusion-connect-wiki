@@ -7,28 +7,28 @@
     "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
     "passiveSkill": {
         "name": "Commercial Strength",
-        "description": "All of Miyuki's attacks decrease target's Rage by an additional 330. ${d.lens5}"
+        "description": "All of Miyuki's attacks decrease target's Rage by an additional 330. ${d.lens5.skill}"
     },
     "uniqueSkill": {
         "name": "Fortune Caller",
-        "description": "Attacks all enemies and deals ATK*215% ${d.awakening ? d.awakening : d.lens4} damage."
+        "description": "Attacks all enemies and deals ATK*215% ${d.awakening ? d.awakening.skill : d.lens4.skill} damage."
     },
     "specialSkill": {
         "name": "Heaven's Blessing",
-        "description": "Miyuki summons a gigantic fan to attack enemies in one column, dealing 120% damage. ${d.lens6} ${d.lens6.attribute}"
+        "description": "Miyuki summons a gigantic fan to attack enemies in one column, dealing 120% damage. ${d.lens6.skill} ${d.lens6.attribute}"
     },
     "normalSkill": {
         "name": "Hurl",
         "description": "Attacks a single enemy and deals ATK*105% damage."
     },
     "templateData": {
-        "lens4": "(+55%)",
+        "lens4.skill": "(+55%)",
         "lens4.attribute": "Increases basic HP by 20%.",
-        "lens5": "Reduces enemy Leader's Rage by 200.",
+        "lens5.skill": "Reduces enemy Leader's Rage by 200.",
         "lens5.attribute": "Increases basic ATK by 20%.",
-        "lens6": "Increases DEF Penetration by 30% when attacking.",
+        "lens6.skill": "Increases DEF Penetration by 30% when attacking.",
         "lens6.attribute": "Chance to use Special Skill +15%.",
-        "awakening": "(+85%)",
+        "awakening.skill": "(+85%)",
         "awakening.attribute": "Increase DMG Rate and DMG RES Rate by 10%."
     }
 }
