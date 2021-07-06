@@ -4,10 +4,10 @@
     "class": "HEALER",
     "faction": "SEED",
     "energyCost": 18,
-    "attributes": "${d['attribute.lens4']s} ${d['attribute.lens5']}",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute}",
     "passiveSkill": {
         "name": "Sacred Vow",
-        "description": "I promise to do my duties, to seek my patient's health and happiness. When Jason joins the battle, restores HP equal to ATK*265% ${d['lens5.hp']} and reduces Rage by 300 ${d['lens5.rage']} for all allies and enemies."
+        "description": "I promise to do my duties, to seek my patient's health and happiness. When Jason joins the battle, restores HP equal to ATK*265% ${d.lens5.hp} and reduces Rage by 300 ${d.lens5.rage} for all allies and enemies."
     },
     "uniqueSkill": {
         "name": "Glory of Life",
@@ -23,11 +23,11 @@
     },
     "templateData": {
         "lens4": "Increases the DMG Rate of revived partners by 30%.",
-        "attribute.lens4": "Increases basic HP by 20%.",
+        "lens4.attribute": "Increases basic HP by 20%.",
         "lens5.hp": "(+65%)",
         "lens5.rage": "(+200)",
-        "attribute.lens5": "Increases basic ATK by 20%.",
+        "lens5.attribute": "Increases basic ATK by 20%.",
         "lens6": "(+50%)",
-        "attribute.lens6": "Chance to use Special Skill +15%."
+        "lens6.attribute": "Chance to use Special Skill +15%."
     }
 }

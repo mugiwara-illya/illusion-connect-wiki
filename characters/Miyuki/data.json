@@ -4,7 +4,7 @@
     "class": "SPELL",
     "faction": "PHOENIX",
     "energyCost": 15,
-    "attributes": "${d['attribute.lens4']s} ${d['attribute.lens5']} ${d['attribute.awakening']}",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
     "passiveSkill": {
         "name": "Commercial Strength",
         "description": "All of Miyuki's attacks decrease target's Rage by an additional 330. ${d.lens5}"
@@ -15,7 +15,7 @@
     },
     "specialSkill": {
         "name": "Heaven's Blessing",
-        "description": "Miyuki summons a gigantic fan to attack enemies in one column, dealing 120% damage. ${d.lens6} ${d['attribute.lens6']}"
+        "description": "Miyuki summons a gigantic fan to attack enemies in one column, dealing 120% damage. ${d.lens6} ${d.lens6.attribute}"
     },
     "normalSkill": {
         "name": "Hurl",
@@ -23,12 +23,12 @@
     },
     "templateData": {
         "lens4": "(+55%)",
-        "attribute.lens4": "Increases basic HP by 20%.",
+        "lens4.attribute": "Increases basic HP by 20%.",
         "lens5": "Reduces enemy Leader's Rage by 200.",
-        "attribute.lens5": "Increases basic ATK by 20%.",
+        "lens5.attribute": "Increases basic ATK by 20%.",
         "lens6": "Increases DEF Penetration by 30% when attacking.",
-        "attribute.lens6": "Chance to use Special Skill +15%.",
+        "lens6.attribute": "Chance to use Special Skill +15%.",
         "awakening": "(+85%)",
-        "attribute.awakening": "Increase DMG Rate and DMG RES Rate by 10%."
+        "awakening.attribute": "Increase DMG Rate and DMG RES Rate by 10%."
     }
 }
