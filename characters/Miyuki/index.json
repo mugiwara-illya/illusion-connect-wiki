@@ -11,7 +11,7 @@
     },
     "uniqueSkill": {
         "name": "Fortune Caller",
-        "description": "Attacks all enemies and deals ATK*215% ${d.awakening ? d.awakening.skill : d.lens4.skill} damage."
+        "description": "Attacks all enemies and deals ATK*215% ${d.awakening.skill ? d.awakening.skill : d.lens4.skill} damage."
     },
     "specialSkill": {
         "name": "Heaven's Blessing",
