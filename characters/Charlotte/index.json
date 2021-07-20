@@ -1,0 +1,30 @@
+{
+    "name": "Charlotte",
+    "introduction": "Ultimate Deduction, Lock-on Murderer",
+    "description": "An intelligent detective girl with high IQ. She's passionate about rational-based knowledge and discovering the truth behind mysteries.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Improbable Truth",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"No one dares to commit a crime in front of Charlotte. When an allied Spirit dies while Charlotte is present, the killer is marked as Murderer and Charlotte restores {placeholder} Rage.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Last Bow",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Charlotte's deduction hits the murderer, dealing {placeholder} damage to all enemies, and {placeholder}x damage to all Murderers.\"}"
+    },
+    "specialSkill": {
+        "name": "Sign of Four",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Charlotte fishes out the mastermind, dealing {placeholder} of ATK damage to the target and the enemy on the same column behind them and gaining a shield with of {placeholder} max HP.Skill Cast Rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "The Hound",
+        "description": "Deals {placeholder} of ATK damage to an enemy."
+    },
+    "templateData": {
+        "lens4.skill": "Charlotte's deduction hits the murderer, dealing {placeholder} damage to all enemies, and {placeholder}x damage to all Murderers.",
+        "lens5.skill": "No one dares to commit a crime in front of Charlotte. When an allied Spirit dies while Charlotte is present, the killer is marked as Murderer and Charlotte restores {placeholder} Rage.",
+        "lens6.skill": "Charlotte fishes out the mastermind, dealing {placeholder} of ATK damage to the target and the enemy on the same column behind them and gaining a shield with of {placeholder} max HP.Skill Cast Rate: {placeholder}"
+    },
+    "energyCost": 15,
+    "class": "LIGHT",
+    "faction": "MUSCIPULA"
+}

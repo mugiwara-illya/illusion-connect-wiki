@@ -1,0 +1,30 @@
+{
+    "name": "Berial",
+    "introduction": "Ideal World, Immortal Shield",
+    "description": "Muscipula's butler who is knowledgeable and trustworthy. Likes to talk about reason but is actually sensible. His heart is unfathomable.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Truth Constructor",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Berial is present, AOE DMG taken by allied Leader and partners reduces by {placeholder}.Lineup Skill:Activation Requirement: Leader is Light Paladin or Spirit Healer.Activation Effect: When Berial is present, allied Guardians appeared gain Taunt for 2 rounds.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Justice Utopia",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Berial activates a barrier which reduces AOE DMG taken by allied Leader and partners that appear while the barrier is in effect by {placeholder} for 2 rounds. Has {placeholder} of Berial's max HP and is not stackable.\"}"
+    },
+    "specialSkill": {
+        "name": "Rational Faith",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Berial deals ATK * {placeholder} damage to an enemy and reduces his/her DMG Rate by {placeholder} for 1 round.Skill Cast Rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Natural Ether",
+        "description": "Deals {placeholder} of ATK damage to an enemy."
+    },
+    "templateData": {
+        "lens4.skill": "Berial activates a barrier which reduces AOE DMG taken by allied Leader and partners that appear while the barrier is in effect by {placeholder} for 2 rounds. Has {placeholder} of Berial's max HP and is not stackable.",
+        "lens5.skill": "When Berial is present, AOE DMG taken by allied Leader and partners reduces by {placeholder}.Lineup Skill:Activation Requirement: Leader is Light Paladin or Spirit Healer.Activation Effect: When Berial is present, allied Guardians appeared gain Taunt for 2 rounds.",
+        "lens6.skill": "Berial deals ATK * {placeholder} damage to an enemy and reduces his/her DMG Rate by {placeholder} for 1 round.Skill Cast Rate: {placeholder}"
+    },
+    "energyCost": 18,
+    "class": "GUARDIAN",
+    "faction": "MUSCIPULA"
+}

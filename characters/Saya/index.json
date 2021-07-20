@@ -1,0 +1,30 @@
+{
+    "name": "Saya",
+    "introduction": "Demon Soul, Chance to Seckill",
+    "description": "She is an intellect with good looks, but under her cool demeanor is the burning desire to win. Also extremely self-conscious and possessive...",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Rule by Strength",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Saya's Unique Skill has a {placeholder} chance of seckilling enemy partner, with every 5% difference in ATK increasing the chance by {placeholder}.Seckill: Instantly wipes out the enemy; equally effective against enemies with current Invincible or Death RES status.\"}"
+    },
+    "uniqueSkill": {
+        "name": "King of Sixth Heaven",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Serves all the sins with the speed of light. Saya attacks a single enemy and deals ATK * {placeholder}  damage. If the target is an enemy partner, deals additional damage equal to {placeholder}  of max HP.\"}"
+    },
+    "specialSkill": {
+        "name": "Unparalleled",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Carries out an assassination effortlessly. Saya attacks a single enemy and deals ATK * {placeholder}  damage, increasing her CRIT by {placeholder} when attacking. Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Demon Slash",
+        "description": "Saya unleashes a focused strike. Attacks a single enemy and deals ATK * {placeholder}  damage."
+    },
+    "templateData": {
+        "lens4.skill": "Serves all the sins with the speed of light. Saya attacks a single enemy and deals ATK * {placeholder}  damage. If the target is an enemy partner, deals additional damage equal to {placeholder}  of max HP.",
+        "lens5.skill": "Saya's Unique Skill has a {placeholder} chance of seckilling enemy partner, with every 5% difference in ATK increasing the chance by {placeholder}.Seckill: Instantly wipes out the enemy; equally effective against enemies with current Invincible or Death RES status.",
+        "lens6.skill": "Carries out an assassination effortlessly. Saya attacks a single enemy and deals ATK * {placeholder}  damage, increasing her CRIT by {placeholder} when attacking. Chance to use skill: {placeholder}"
+    },
+    "energyCost": 10,
+    "class": "ATTACKER",
+    "faction": "MUSCIPULA"
+}

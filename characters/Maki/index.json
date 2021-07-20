@@ -1,0 +1,30 @@
+{
+    "name": "Maki",
+    "introduction": "Lady of Yakuza, Deathrattle Damage",
+    "description": "An eastern beauty with no visible flaws. Majestic, handsome and does not think twice about killing. With a reverse blade in hand, she aims to take back the Tobunkai. Very rarely will one get to see her girly side.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Reformer",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Maki's ATK in battle increases by {placeholder}, and on death {placeholder} ATK DMG is dealt to enemy Leader.Lineup Skill:Activation Requirement: Average Lineup Energy is less than or equal to 14.Activation Effect: When Ally partner dies, she deals 100% ATK DMG to enemy Leader.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Crimson Moon",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"A true slash with a legendary blade. Maki attacks a single enemy and deals ATK * {placeholder} damage. Has a {placeholder} / {placeholder} chance to trigger 1-hit / 2-hit combo, dealing {placeholder} / {placeholder} damage.\"}"
+    },
+    "specialSkill": {
+        "name": "Wind Swirl",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"An overhead strike that is powerful enough to cut through steel. Maki attacks a single enemy and deals ATK * {placeholder} damage. If the target is an enemy partner, then deals additional damage equal to {placeholder} of the damage dealt to the enemy Leader.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Slash Dance",
+        "description": "Maki goes into a dance with her blades. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "A true slash with a legendary blade. Maki attacks a single enemy and deals ATK * {placeholder} damage. Has a {placeholder} / {placeholder} chance to trigger 1-hit / 2-hit combo, dealing {placeholder} / {placeholder} damage.",
+        "lens5.skill": "Maki's ATK in battle increases by {placeholder}, and on death {placeholder} ATK DMG is dealt to enemy Leader.Lineup Skill:Activation Requirement: Average Lineup Energy is less than or equal to 14.Activation Effect: When Ally partner dies, she deals 100% ATK DMG to enemy Leader.",
+        "lens6.skill": "An overhead strike that is powerful enough to cut through steel. Maki attacks a single enemy and deals ATK * {placeholder} damage. If the target is an enemy partner, then deals additional damage equal to {placeholder} of the damage dealt to the enemy Leader.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 12,
+    "class": "ATTACKER",
+    "faction": "TOBUNKAI"
+}

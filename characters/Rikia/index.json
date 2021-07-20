@@ -1,0 +1,30 @@
+{
+    "name": "Rikia",
+    "introduction": "Dark Princess, Team Debuff",
+    "description": "A rebellious witch who represents the new generation of witches at Liberos and wants to expand the organization. Will do anything to get what she wants.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Black Magic",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Rikia appears, all Ally debuffs are dispelled. Every debuff dispelled increases her HP Max by {placeholder}, and DMG Rate by {placeholder}.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Gloomy Hollow",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Rikia calls down the black star. Attacks the enemy team and deals ATK * {placeholder} damage, and places one of the following debuffs on the enemy for 1 round: [Stun], [Silence], reduces ATK by 20%, or reduces DEF by 20%.\"}"
+    },
+    "specialSkill": {
+        "name": "Raven Night",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Quills from a crow pierce the enemy. RIkia attacks a single enemy and deals ATK * {placeholder} damage, silencing the target for 2 rounds.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Black Wings",
+        "description": "Rikia summons a small black hole. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Rikia calls down the black star. Attacks all enemies and deals ATK * {placeholder} damage, and places one of the following debuffs on the enemy: [Stun], [Silence], reduces ATK by 20%, or reduces DEF by 20%.",
+        "lens5.skill": "When Rikia appears, all Ally debuffs are dispelled. Every debuff dispelled increases her HP Max by {placeholder}, and DMG Rate by {placeholder}.",
+        "lens6.skill": "Quills from a crow pierce the enemy. RIkia attacks a single enemy and deals ATK * {placeholder} damage, silencing the target for 2 rounds.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 12,
+    "class": "SPELL",
+    "faction": "LIBEROS"
+}

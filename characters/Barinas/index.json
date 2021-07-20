@@ -1,0 +1,30 @@
+{
+    "name": "Barinas",
+    "introduction": "Dark Knight, Immortal Soul",
+    "description": "A vessel for holding Bar the Demon, with Barinas' soul as the lock. The Nightmare Knight is always resisting the power of the Demon God.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Demon God",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Barinas dies, he returns to the hand, receiving {placeholder} ATK, and {placeholder} HP Max. Triggers 1 time per battle. DMG to Guardian class enemies increases by {placeholder}.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Devil's Massacre",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Unleashes the lord of terror from the abyss. Attacks enemies in a cross pattern and deals ATK * {placeholder} damage. For each enemy hit, increases ATK by {placeholder}  and DEF by {placeholder}.\"}"
+    },
+    "specialSkill": {
+        "name": "Bloody Sacrifice",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Smashes enemies with the touch of an ancient deity. Attacks an enemy column and deals ATK * {placeholder} damage, increasing Lifesteal Rate by {placeholder} when attacking.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Soul Pierce",
+        "description": "Barinas pierces the opponent with his weapon. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Unleashes the lord of terror from the abyss. Attacks enemies in a cross pattern and deals ATK * {placeholder} damage. For each enemy hit, increases ATK by {placeholder}  and DEF by {placeholder}.",
+        "lens5.skill": "When Barinas dies, he returns to the hand, receiving {placeholder} ATK, and {placeholder} HP Max. Triggers 1 time per battle. DMG to Guardian class enemies increases by {placeholder}.",
+        "lens6.skill": "Smashes enemies with the touch of an ancient deity. Attacks an enemy column and deals ATK * {placeholder} damage, increasing Lifesteal Rate by {placeholder} when attacking.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 17,
+    "class": "GUARDIAN",
+    "faction": "UROBOROS"
+}

@@ -1,0 +1,30 @@
+{
+    "name": "Nina",
+    "introduction": "Young and Passionate, Burst Damage",
+    "description": "A gamer with really poor grades. She is passionate, impulsive and hates to lose, and becomes unreasonable when she loses her temper. She finds fighting Nightmares similar to her games - challenging and fun!",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Game Master",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Every time Nina damages an enemy, increases this attack's DMG Rate by {placeholder} and CRIT Power by {placeholder}.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Fate Breaker",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"May the flames guide you. Nina attacks an enemy column and deals ATK * {placeholder} damage. For each target hit, increases CRIT Rate by {placeholder} .\"}"
+    },
+    "specialSkill": {
+        "name": "Heavenly Pierce",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Praise the sun! Nina attacks a single enemy and deals ATK * {placeholder} damage, increasing CRIT Rate by {placeholder} for 2 rounds.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Death Beam",
+        "description": "Nina thrusts her lance forward. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "May the flames guide you. Nina attacks an enemy column and deals ATK * {placeholder} damage. For each target hit, increases CRIT Rate by {placeholder} .",
+        "lens5.skill": "Every time Nina damages an enemy, increases this attack's DMG Rate by {placeholder} and CRIT Power by {placeholder}.",
+        "lens6.skill": "Praise the sun! Nina attacks a single enemy and deals ATK * {placeholder} damage, increasing CRIT Rate by {placeholder} for 2 rounds.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 12,
+    "class": "SORCERER",
+    "faction": "MUSCIPULA"
+}

@@ -1,0 +1,30 @@
+{
+    "name": "Ai Mizuno",
+    "introduction": "Zombie Idol, Combo Attacks",
+    "description": "The immovable leader of the idol group \"Iron Thrill\", that was at the top during the Heisei era idol war. After her death, she was titled \"The Legendary Heisei Idol\". Although she can sing well, she's more confident about dancing.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "The unassailable center girl.",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Ai's HP is near 0, she becomes Zombified, inheriting 150% ATK, 100% DEF and 100% HP. All attacks will target random single enemies and cannot gain Rage.Team Skill: Deploy Sakura, Ai and Junko.Triggered Effect: When Sakura, Ai or Junko attacks, other allied idols will launch a combo attack.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Idol Flower Shower",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Deals {placeholder} damage to a column of enemies, and has a 50% chance of inflicting Paralysis for 1 round. For every enemy hit, deals ATK * 120% damage to a random enemy.\"}"
+    },
+    "specialSkill": {
+        "name": "I love flower shuriken!",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Ai deals {placeholder} damage to an enemy and reduces enemy's DEF by 20%Skill Cast Rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Fran Chou Chou's No. 3",
+        "description": "Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Deals {placeholder} damage to a column of enemies, and has a 50% chance of inflicting Paralysis for 1 round. For every enemy hit, deals ATK * 120% damage to a random enemy and increases own CRIT Rate by 35%.",
+        "lens5.skill": "When Ai's HP is near 0, she becomes Zombified, inheriting 150% ATK, 100% DEF and 100% HP. All attacks will target random single enemies and cannot gain Rage.Team Skill: Deploy Sakura, Ai and Junko.Triggered Effect: When Sakura, Ai or Junko attacks, other allied idols will launch a combo attack.",
+        "lens6.skill": "Ai deals {placeholder} damage to an enemy and reduces enemy's DEF by 20%Skill Cast Rate: {placeholder}"
+    },
+    "energyCost": 16,
+    "class": "SORCERER",
+    "faction": "TOBUNKAI"
+}

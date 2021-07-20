@@ -1,0 +1,30 @@
+{
+    "name": "Lunar",
+    "introduction": "Justice Knight, Destroyer",
+    "description": "Lunar is regarded as a chuunibyou sufferer. To carry out justice, she inspects thoroughly in every city. She has participated in countless battles and saved many people.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Arrival of Justice",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Partner of Justice arrives in a bad situation! Before Lunar arrives, if the total deaths of partners and summoned on both parties reach {placeholder}, Lunar's Energy will become {placeholder}.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Destruction of Galaxy",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Lunar gathers a tremendous amount of energy and releases a penetrable shockwave to attack all enemies, dealing ATK* {placeholder} damage to enemies in the middle column and ATK* {placeholder} damage to enemies alongside.\"}"
+    },
+    "specialSkill": {
+        "name": "Flash Burst",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Lunar deals ATK* {placeholder} damage to all enemies.Skill Cast Rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Knight Kicking",
+        "description": "Deals {placeholder} of ATK damage to an enemy."
+    },
+    "templateData": {
+        "lens4.skill": "Lunar gathers a tremendous amount of energy and releases a penetrable shockwave to attack all enemies, dealing ATK* {placeholder} damage to enemies in the middle column and ATK* {placeholder} damage to enemies alongside.",
+        "lens5.skill": "Partner of Justice arrives in a bad situation! Before Lunar arrives, if the total deaths of partners and summoned on both parties reach {placeholder}, Lunar's Energy will become {placeholder}.",
+        "lens6.skill": "Lunar deals ATK* {placeholder} damage to all enemies.Skill Cast Rate: {placeholder}"
+    },
+    "energyCost": 12,
+    "class": "ATTACKER",
+    "faction": "SEED"
+}

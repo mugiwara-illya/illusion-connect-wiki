@@ -1,0 +1,30 @@
+{
+    "name": "Annis Dora",
+    "introduction": "Pandora Girl, Devouring Hearts",
+    "description": "Someone found a girl carrying a box at the beach. Her box reflects desire.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Whispers of the Magic Box",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Summons Magic Box when Annis dies. If Magic Box is already on the field, its ATK will be doubled. When Magic Box dies, Annis recovers 500 Rage. Reduces Annis' and Magic Box's group damage by 30%.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Desire of Devour",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Annis orders Magic Box to devour enemy spirits, dealing {placeholder} damage to all enemies. Summons 1 Magic Box which inherits {placeholder} of Annis' ATK, {placeholder} of her DEF, and {placeholder} of her HP. Grants one of these buffs when Magic Box dies: Annis invincible for 1 round, enemy with the highest Rage loses all Rage, HP of attacker reduces by half, energy of 1 ally Spirit in hand reduces by half.\"}"
+    },
+    "specialSkill": {
+        "name": "Desire of Kiss",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Annis deals {placeholder} damage to a single enemy, and boosts Magic Box's ATK by {placeholder} for 3 rounds. Magic Box's CRIT Rate increases by {placeholder}.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Desire of Touch",
+        "description": "Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Annis orders Magic Box to devour enemy spirits, dealing {placeholder} damage to all enemies. Summons 1 Magic Box which inherits {placeholder} of Annis' ATK, {placeholder} of her DEF, and {placeholder} of her HP. Magic Box boosts own ATK and DEF by 20% when it appears. Grants one of these buffs when Magic Box dies: Annis invincible for 1 round, enemy with the highest Rage loses all Rage, HP of attacker (except the protagonist) reduces by half, energy of 1 ally Spirit in hand reduces by half.",
+        "lens5.skill": "Summons Magic Box when Annis dies. If Magic Box is already on the field, its ATK will be doubled. When Magic Box dies, Annis recovers 500 Rage. Reduces Annis' and Magic Box's group damage by 30%.",
+        "lens6.skill": "Annis deals {placeholder} damage to a single enemy, and boosts Magic Box's ATK by {placeholder} for 3 rounds. Magic Box's CRIT Rate increases by {placeholder}.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 15,
+    "class": "SUMMONER",
+    "faction": "UROBOROS"
+}

@@ -1,0 +1,30 @@
+{
+    "name": "Tiffany",
+    "introduction": "Mysterious Witch, Summon Killer",
+    "description": "Tiffany the Stargazer is a very friendly girl, and calls people stars when she praises them. Some might think it's slightly mocking, but the praises come straight from her heart.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Prophecy",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Tiffany's DMG to Summoned increases by {placeholder}, and her CRIT Rate in battle increases by {placeholder}.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Brilliant Light",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"The brilliant lights from the stars cleanse the void. Tiffany attacks an enemy row and deals ATK * {placeholder} damage. Enemy's summoned hit by this attack are killed immediately.\"}"
+    },
+    "specialSkill": {
+        "name": "Sea of Stars",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Shadow of a phantom, hope within desperation. Tiffany attacks an enemy row and deals ATK * {placeholder} damage. Enemy's summoned take additional {placeholder} damage.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Star Power",
+        "description": "Tiffany summons the fallen stars. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "The brilliant lights from the stars cleanse the void. Tiffany attacks an enemy row and deals ATK * {placeholder} damage. Enemy's summoned hit by this attack are killed immediately.",
+        "lens5.skill": "Tiffany's DMG to Summoned increases by {placeholder}, and her CRIT Rate in battle increases by {placeholder}.",
+        "lens6.skill": "Shadow of a phantom, hope within desperation. Tiffany attacks an enemy row and deals ATK * {placeholder} damage. Enemy's summoned take additional {placeholder} damage.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 14,
+    "class": "SORCERER",
+    "faction": "SEED"
+}

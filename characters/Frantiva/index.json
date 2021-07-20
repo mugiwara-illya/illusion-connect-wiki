@@ -1,0 +1,30 @@
+{
+    "name": "Frantiva",
+    "introduction": "Dark Knight, Illusionary Shadow",
+    "description": "Frantiva's world revolves around herself. She is cold and does not have a lot to say, and does not appear to be affected by just about anything. It might appear that she only does what she wants, but she actually has very strict rules about what she does and doesn't do.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Dark Knight",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Frantiva dies, 3 Shadows are summoned. All AOE DMG sustained by Frantiva or her Shadows is decreased by {placeholder}. Shadows receive {placeholder} of her ATK, {placeholder} of her DEF, and {placeholder} of her HP.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Dark Contract",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"The dragon slayer rips the earth apart. Frantiva attacks a single enemy and deals ATK * {placeholder} damage, increasing her max HP by {placeholder} .\"}"
+    },
+    "specialSkill": {
+        "name": "Shadow Servant",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"The soul-piercing spear leaves no shadow behind. Attacks a single enemy and deals ATK * {placeholder} damage, increasing DEF Penetration by {placeholder} when attacking.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Shadow Spike",
+        "description": "Frantiva pierces her opponent with her spear. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "The dragon slayer rips the earth apart. Frantiva attacks a single enemy and deals ATK * {placeholder} damage, increasing her max HP by {placeholder} .",
+        "lens5.skill": "When Frantiva dies, 3 Shadows are summoned. All AOE DMG sustained by Frantiva or her Shadows is decreased by {placeholder}. Shadows receive {placeholder} of her ATK, {placeholder} of her DEF, and {placeholder} of her HP.",
+        "lens6.skill": "The soul-piercing spear leaves no shadow behind. Attacks a single enemy and deals ATK * {placeholder} damage, increasing DEF Penetration by {placeholder} when attacking.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 13,
+    "class": "SUMMONER",
+    "faction": "UROBOROS"
+}

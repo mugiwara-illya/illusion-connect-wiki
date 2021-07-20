@@ -1,0 +1,30 @@
+{
+    "name": "Grant",
+    "introduction": "Holy Knight, Unwavering Heart",
+    "description": "As the 6th seat of the Ten Saints, Grant is cheerful and sunny, but also a little naive. He handles matters simply and directly without any selfishness. His valorous figure in battle is always inspiring.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Holy Light",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"The holy light purifies all evil and brings justice. When Grant is present, enemies cannot deal critical hits, and Grant gains a shield with {placeholder} of Max HP per second (will not gain if shield exceeds Max HP).Lineup Skill:Activation Requirement: Leader is Light Paladin or Spirit Healer.Activation Effect: When Grant is present, reduces AOE DMG received by allies on the same column by {placeholder}.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Honor is My Life",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Grant gathers a knight's majesty and honor into holy light that banishes all darkness. Deals ATK * {placeholder} damage to a single enemy. For every 1% Max HP or shield, deals additional {placeholder} true damage (max {placeholder}, ignoring DEF, Block and DMG RES Rate).\"}"
+    },
+    "specialSkill": {
+        "name": "Power of Devotion",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Grant waves his sword and deals ATK * {placeholder} damage to a single enemy, and restores {placeholder} of Max HP.Skill Cast Rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Trial of Order",
+        "description": "Grant deals ATK * {placeholder} damage to a single enemy."
+    },
+    "templateData": {
+        "lens4.skill": "Grant gathers a knight's majesty and honor into holy light that banishes all darkness. Deals ATK * {placeholder} damage to a single enemy. For every 1% Max HP or shield, deals additional {placeholder} true damage (max {placeholder}, ignoring DEF, Block and DMG RES Rate).",
+        "lens5.skill": "The holy light purifies all evil and brings justice. When Grant is present, enemies cannot deal critical hits, and Grant gains a shield with {placeholder} of Max HP per second (will not gain if shield exceeds Max HP).Lineup Skill:Activation Requirement: Leader is Light Paladin or Spirit Healer.Activation Effect: When Grant is present, reduces AOE DMG received by allies on the same column by {placeholder}.",
+        "lens6.skill": "Grant waves his sword and deals ATK * {placeholder} damage to a single enemy, and restores {placeholder} of Max HP.Skill Cast Rate: {placeholder}"
+    },
+    "energyCost": 14,
+    "class": "GUARDIAN",
+    "faction": "SEED"
+}

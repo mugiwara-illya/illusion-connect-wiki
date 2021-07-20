@@ -1,0 +1,30 @@
+{
+    "name": "Gigi",
+    "introduction": "Weapon Master, Low Cost Fast Attack",
+    "description": "Gigi is in charge of weapon research and production at the Nightmare Lab. An extreme perfectionist, she does not allow failures in her work.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Power of Creation",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Every time Gigi takes an action, ATK increases by {placeholder}, and DEF increases by {placeholder}; stacks up to 5 times.Lineup Skill:Activation Requirement: Average Lineup Energy is less than or equal to 14.Activation Effect: DMG Rate of partners with less than 14 Energy increases by 15%.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Smelting Hammer",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"A last minute strike. Gigi attacks a single enemy and deals ATK * {placeholder} damage. Also [stuns] the target for 1 round.\"}"
+    },
+    "specialSkill": {
+        "name": "Dice and Slice",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Alternating thrusts that pierce the enemy's armor. Attacks a single enemy and deals ATK * {placeholder} damage, increasing DEF Penetration by {placeholder} when attacking.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Quill",
+        "description": "Gigi thrusts with her rapier. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "A last minute strike. Gigi attacks a single enemy and deals ATK * {placeholder} damage. Also [stuns] the target for 1 round.",
+        "lens5.skill": "Every time Gigi takes an action, ATK increases by {placeholder}, and DEF increases by {placeholder}; stacks up to 5 times.Lineup Skill:Activation Requirement: Average Lineup Energy is less than or equal to 14.Activation Effect: DMG Rate of partners with less than 14 Energy increases by 15%.",
+        "lens6.skill": "Alternating thrusts that pierce the enemy's armor. Attacks a single enemy and deals ATK * {placeholder} damage, increasing DEF Penetration by {placeholder} when attacking.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 11,
+    "class": "ATTACKER",
+    "faction": "PHOENIX"
+}

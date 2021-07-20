@@ -1,0 +1,30 @@
+{
+    "name": "Ashwaya",
+    "introduction": "Ancient God of War, Ghost Summoner",
+    "description": "A cold beauty that does not wish to be associated with the weak and the defeated. She likes to challenge those stronger than her and loves making them part of her army. She wants to right the wrongs of the world through wars.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Fierce Warrior",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Every Wandering Nightmare on the battlefield increases Ashwaya's ATK by {placeholder}. When a Wandering Nightmare dies, {placeholder} ATK DMG is dealt to enemy Sorcerer partners.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Hyakki Yagyo",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Ashwaya summons wandering nightmares from the void gate to roam over the battlefield. They inherit {placeholder} of Ashwaya's ATK, {placeholder} of her DEF and {placeholder} of her HP.\"}"
+    },
+    "specialSkill": {
+        "name": "Supernatural",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Ashwaya controls a nightmare servant and crashes it into the enemy. Attacks a single enemy and deals ATK * {placeholder} damage, restoring {placeholder} Rage.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Rapid Strike",
+        "description": "Ashwaya unleashes an explosive nightmare. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Ashwaya summons wandering nightmares from the void gate to roam over the battlefield. They inherit {placeholder} of Ashwaya's ATK, {placeholder} of her DEF and {placeholder} of her HP.",
+        "lens5.skill": "Every Wandering Nightmare on the battlefield increases Ashwaya's ATK by {placeholder}. When a Wandering Nightmare dies, {placeholder} ATK DMG is dealt to enemy Sorcerer partners.",
+        "lens6.skill": "Ashwaya controls a nightmare servant and crashes it into the enemy. Attacks a single enemy and deals ATK * {placeholder} damage, restoring {placeholder} Rage.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 17,
+    "class": "SUMMONER",
+    "faction": "UROBOROS"
+}

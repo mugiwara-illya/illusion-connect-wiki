@@ -1,0 +1,30 @@
+{
+    "name": "Haruka",
+    "introduction": "Cool Wanderer, Hide and Retrieve",
+    "description": "Only weak people beat around the bush. My sword will decide whether I should agree with you.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Assassination",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Should I die, let someone else continue my work. If a partner appears directly in front of Haruka, she will return to the hand, gaining {placeholder} Energy for the team and increasing ATK by {placeholder} (up to 2 stacks). Triggers {placeholder} time(s) per battle.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Execution",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"An assassin live to kill. Haruka deals ATK*{placeholder} damage to an enemy, ignoring half of the target's DMG RES Rate. Increases the damage of the first Unique Skill after every appearance by {placeholder} and uses it on the enemy Leader.\"}"
+    },
+    "specialSkill": {
+        "name": "Corpse Grass",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"My passion will never die. Haruka deals ATK*{placeholder} damage to an enemy, followed by Special Skill on the same target.Skill Cast Rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Crimson Flower",
+        "description": "Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "An assassin live to kill. Haruka deals ATK*{placeholder} damage to an enemy, ignoring half of the target's DMG RES Rate. Increases the damage of the first Unique Skill after every appearance by {placeholder} and uses it on the enemy Leader. When taunted by a partner or summoned, deals additional true damage equal to {placeholder} of target's max HP (ignores DMG RES, DEF and Block).",
+        "lens5.skill": "Should I die, let someone else continue my work. If a partner appears directly in front of Haruka, she will return to the hand, gaining {placeholder} Energy for the team and increasing ATK by {placeholder} (up to 2 stacks). Triggers {placeholder} time(s) per battle.",
+        "lens6.skill": "My passion will never die. Haruka deals ATK*{placeholder} damage to an enemy, followed by Special Skill on the same target.Skill Cast Rate: {placeholder}"
+    },
+    "energyCost": 10,
+    "class": "ATTACKER",
+    "faction": "TOBUNKAI"
+}

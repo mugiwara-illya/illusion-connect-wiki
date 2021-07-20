@@ -1,0 +1,30 @@
+{
+    "name": "Gemmy",
+    "introduction": "Immortal Lolita, Assimilate Partner",
+    "description": "Fanatical and greedy gourmet Gemmy. She wants to taste all flavors in the world. Even as a vampire, she adheres to her fine dining aesthetics.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Hunting Time",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Gemmy dies, she revives and receives 100% ATK, 100% DEF, 1% HP, and 1000 Rage. Triggers 2 times per battle, the second time inheriting 50% ATK.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Cross Feast",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Gemmy deals DMG equal to {placeholder} of ATK to a single target, plus an additional DMG equal to 12% of the target's current HP. The additional DMG does not exceed 300% ATK.\"}"
+    },
+    "specialSkill": {
+        "name": "Bloody Slice",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Gemmy deals DMG equal to {placeholder} of ATK to a single target and randomly increases one allied partner's Lifesteal Rate by 30%. The effect lasts the entire battle and cannot stack. Cast Rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Shape It",
+        "description": "Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Gemmy deals DMG equal to {placeholder} of ATK to a single target, plus an additional DMG equal to 17% of the target's current HP. The additional DMG does not exceed 400% ATK.",
+        "lens5.skill": "When Gemmy dies, she revives and receives 100% ATK, 100% DEF, 1% HP, and 1000 Rage. Triggers 2 times per battle, the second time inheriting 50% ATK.",
+        "lens6.skill": "Gemmy deals DMG equal to {placeholder} of ATK to a single target and randomly increases one allied partner's Lifesteal Rate by 30%. The effect lasts the entire battle and cannot stack. Cast Rate: {placeholder}"
+    },
+    "energyCost": 17,
+    "class": "ATTACKER",
+    "faction": "UROBOROS"
+}

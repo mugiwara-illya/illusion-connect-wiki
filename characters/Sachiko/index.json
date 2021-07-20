@@ -1,0 +1,30 @@
+{
+    "name": "Sachiko",
+    "introduction": "Loyal Servant, Spirit of Tobun",
+    "description": "She appears to be serious, stubborn and old-fashioned, but inside she's just like any other girls her age. She is also a huge fan of Anna, the popular idol.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Flame Gun",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Sachiko appears, she grants a {placeholder} HP Shield. Every 1 Tobunkai partner on the battlefield increases DMG Rate by an additional {placeholder} and DMG RES Rate by an additional {placeholder}.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Splitting Wave",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Pierces the enemy with the power of the Sanada Ten Braves. Sachiko attacks an enemy row and deals ATK * {placeholder} damage. For each target hit, increases DMG RES Rate by {placeholder} .\"}"
+    },
+    "specialSkill": {
+        "name": "Multishot",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"The spear thrust does not waver. Sachiko a single enemy and deals ATK * {placeholder} damage, increasing her DMG RES Rate by {placeholder}.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Fire Slash",
+        "description": "Sachiko attacks with her spear from above. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Pierces the enemy with the power of the Sanada Ten Braves. Sachiko attacks an enemy row and deals ATK * {placeholder} damage. For each target hit, increases DMG RES Rate by {placeholder} .",
+        "lens5.skill": "When Sachiko appears, she grants a {placeholder} HP Shield. Every 1 Tobunkai partner on the battlefield increases DMG Rate by an additional {placeholder} and DMG RES Rate by an additional {placeholder}.",
+        "lens6.skill": "The spear thrust does not waver. Sachiko a single enemy and deals ATK * {placeholder} damage, increasing her DMG RES Rate by {placeholder}.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 10,
+    "class": "GUARDIAN",
+    "faction": "TOBUNKAI"
+}

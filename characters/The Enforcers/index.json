@@ -1,0 +1,30 @@
+{
+    "name": "The Enforcers",
+    "introduction": "Star of Enforcement, Operation Team",
+    "description": "The three of them have very different personalities, but they are all keepers of justice and make a great team. Firm believers of those who do evil must be punished.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "All For One",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When the Enforcers are not in play, every Ally partner of Summon class that joins the battle requires 1 less Energy, increases their ATK by {placeholder}, and HP Max by {placeholder}.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Joint Enforcement",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Betty and the Enforcers have arrived. Attack a single enemy and deal ATK * {placeholder} damage. Vanessa and Lucy inherit {placeholder} of Betty's ATK, {placeholder} of her DEF, and {placeholder} of her HP. The 3 of them gain [Life Link]. Vanessa taunts the enemy team for 2 rounds.\"}"
+    },
+    "specialSkill": {
+        "name": "Comment Booster",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"The Enforcers analyze the enemy to find its weakness. Attack a single enemy and deal ATK * {placeholder} damage, increasing CRIT Rate by {placeholder} .Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "All Fire",
+        "description": "The Enforcers aim with their guns. Attack a single enemy and deal ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Betty and the Enforcers have arrived. Attack a single enemy and deal ATK * {placeholder} damage. Vanessa and Lucy inherit {placeholder} of Betty's ATK, {placeholder} of her DEF, and {placeholder} of her HP. The 3 of them gain [Life Link]. Vanessa taunts the enemy team for 2 rounds.",
+        "lens5.skill": "When the Enforcers are not in play, every Ally partner of Summon class that joins the battle requires 1 less Energy, increases their ATK by {placeholder}, and HP Max by {placeholder}.",
+        "lens6.skill": "The Enforcers analyze the enemy to find its weakness. Attack a single enemy and deal ATK * {placeholder} damage, increasing CRIT Rate by {placeholder} .Chance to use skill: {placeholder}"
+    },
+    "energyCost": 19,
+    "class": "SUMMONER",
+    "faction": "SEED"
+}

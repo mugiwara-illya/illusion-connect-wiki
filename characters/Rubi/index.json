@@ -1,0 +1,30 @@
+{
+    "name": "Rubi",
+    "introduction": "Howling Shotgun, Wolf Companion",
+    "description": "A bounty hunter who works for money. She came back with a mysterious cloak made of wolf pelt after a certain mission. It's said that it was her childhood friend.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Partners Forever",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Rubi joins the battle, restores {placeholder} Rage to Leader and summons {placeholder} wolves. Wolves have {placeholder} of Rubi's ATK, {placeholder} of her DEF and {placeholder} of her HP. Wolf's attacks can break target's invincibility and shield.Lineup Skill:Activation Requirement: Leader is Sakura Swordsman or Axe of Dawn.Activation Effect: In this battle, partners in hand can join the battle at a summoned's position, killing it instantly.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Grandma Wolf's Gift",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Lock on the enemy and fire! Rubi deals ATK*{placeholder} damage to a column of enemies and gains {placeholder} CRIT Rate. Every critical hit summons 1 wolf. Summons up to {placeholder} per skill cast.\"}"
+    },
+    "specialSkill": {
+        "name": "Precision",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Rubi aims at the enemy and fires at the right time, dealing ATK*{placeholder} damage to an enemy and restoring {placeholder} Rage to Leader.Skill Cast rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Trial",
+        "description": "Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Lock on the enemy and fire! Rubi deals ATK*{placeholder} damage to a column of enemies and gains {placeholder} CRIT Rate. Every critical hit summons 1 wolf. Summons up to {placeholder} per skill cast.",
+        "lens5.skill": "When Rubi joins the battle, restores {placeholder} Rage to Leader and summons {placeholder} wolves. Wolves have {placeholder} of Rubi's ATK, {placeholder} of her DEF and {placeholder} of her HP. Wolf's attacks can break target's invincibility and shield.Lineup Skill:Activation Requirement: Leader is Sakura Swordsman or Axe of Dawn.Activation Effect: In this battle, partners in hand can join the battle at a summoned's position, killing it instantly.",
+        "lens6.skill": "Rubi aims at the enemy and fires at the right time, dealing ATK*{placeholder} damage to an enemy and restoring {placeholder} Rage to Leader.Skill Cast rate: {placeholder}"
+    },
+    "energyCost": 10,
+    "class": "SUMMONER",
+    "faction": "PHOENIX"
+}

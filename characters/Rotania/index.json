@@ -1,0 +1,30 @@
+{
+    "name": "Rotania",
+    "introduction": "Omniscient Maiden, Destroyer of the World",
+    "description": "She does not like to spend time with people and only associate with those stronger than her. An expert on everything inside the dream. It's possible that human comics and cartoons will pique her interest.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Insight",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Every enemy partner on the battlefield increases Rotania's DMG Rate by {placeholder}, and her CRIT Rate by {placeholder}.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Ultimate Reversal",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Destroys all life with unparalleled power. Rotania attacks the enemy team and deals ATK * {placeholder} damage. Enemy's summoned take {placeholder} times more damage.\"}"
+    },
+    "specialSkill": {
+        "name": "Energy Impact",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"An energy wave that attacks from below. Rotania attacks an enemy column and deals ATK * {placeholder} damage, increasing CRIT Rate by {placeholder} while attacking.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Source Power",
+        "description": "Rotania fires a death beam. Attacks an enemy column and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Destroys all life with unparalleled power. Rotania attacks the enemy team and deals ATK * {placeholder} damage. Enemy's summoned take {placeholder} times more damage.",
+        "lens5.skill": "Every enemy partner on the battlefield increases Rotania's DMG Rate by {placeholder}, and her CRIT Rate by {placeholder}.",
+        "lens6.skill": "An energy wave that attacks from below. Rotania attacks an enemy column and deals ATK * {placeholder} damage, increasing CRIT Rate by {placeholder} while attacking.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 20,
+    "class": "SORCERER",
+    "faction": "UROBOROS"
+}

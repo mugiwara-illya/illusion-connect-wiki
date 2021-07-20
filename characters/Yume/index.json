@@ -1,0 +1,30 @@
+{
+    "name": "Yume",
+    "introduction": "Shooting Star, Rage Steal",
+    "description": "A master marksman who trains every day without fail. Almost too serious and stubborn about things and not very sociable. Also known as the conversation ender because of her straight-forwardness and lack of understanding of popular culture.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Marksman",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"The aura that drives the soul becomes a magic circle. When Yume is present, reduces all enemies' Rage regeneration by 20%  and increases her own DEF Penetration by 25%. Also increases DEF Penetration of allies by 25%.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Arrow Dance",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Yume fires a rain of arrows to repel evil. Attacks a single enemy and deals DMG equal to {placeholder} of ATK, stealing 200 Rage from the target. If target has 0 Rage, then stuns the target for 1 round.\"}"
+    },
+    "specialSkill": {
+        "name": "Mighty Arrows",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"A precise magical attack. Yume attacks a single enemy and deals DMG equal to {placeholder} of ATK. Increases DEF Penetration by 15%.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Spirit Arrow",
+        "description": "Yume fires an arrow that flies true. Attacks a single enemy and deals DMG equal to {placeholder} of ATK."
+    },
+    "templateData": {
+        "lens4.skill": "Yume fires a rain of arrows to repel evil. Attacks a single enemy and deals DMG equal to {placeholder} of ATK, stealing 300 Rage from the target. If target has 0 Rage, then stuns the target for 1 round.",
+        "lens5.skill": "The aura that drives the soul becomes a magic circle. When Yume is present, reduces all enemies' Rage regeneration by 20%  and increases her own DEF Penetration by 25%. Also increases DEF Penetration of allies by 25%.",
+        "lens6.skill": "A precise magical attack. Yume attacks a single enemy and deals DMG equal to {placeholder} of ATK. Increases DEF Penetration by 15%.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 16,
+    "class": "ATTACKER",
+    "faction": "TOBUNKAI"
+}

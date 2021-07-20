@@ -1,0 +1,30 @@
+{
+    "name": "Kasumi",
+    "introduction": "Blacksmith Maiden, Blood Sacrifice",
+    "description": "She is aloof, fickle and acts like she doesn't care very much. She is afraid of the curse on her blade and how it might hurt people around her, so she keeps them away by being cold and serious.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Expert Forger",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Kasumi appears, her CRIT DMG increases by {placeholder}, and she steals all enemy Invincible and Shield effects; every stolen effect increases her DMG Rate by {placeholder}, lasts 3 rounds.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Deadly Curse",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"My blood for your soul. Kasumi attacks an enemy column and deals ATK * {placeholder} damage. She loses {placeholder} HP but increases her CRIT Rate by {placeholder}.\"}"
+    },
+    "specialSkill": {
+        "name": "Omen",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"You shall live no more. Kasumi attacks a single enemy and deals ATK * {placeholder} damage, sacrificing {placeholder} of her HP to increase her CRIT Rate by {placeholder} .Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Clash",
+        "description": "Kasumi dismembers the target with her demonic blade. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "My blood for your soul. Kasumi attacks an enemy column and deals ATK * {placeholder} damage. She loses {placeholder} HP but increases her CRIT Rate by {placeholder}.",
+        "lens5.skill": "When Kasumi appears, her CRIT DMG increases by {placeholder}, and she steals all enemy Invincible and Shield effects; every stolen effect increases her DMG Rate by {placeholder}, lasts 3 rounds.",
+        "lens6.skill": "You shall live no more. Kasumi attacks a single enemy and deals ATK * {placeholder} damage, sacrificing {placeholder} of her HP to increase her CRIT Rate by {placeholder} .Chance to use skill: {placeholder}"
+    },
+    "energyCost": 17,
+    "class": "ATTACKER",
+    "faction": "TOBUNKAI"
+}

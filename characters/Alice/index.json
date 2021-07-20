@@ -1,0 +1,30 @@
+{
+    "name": "Alice",
+    "introduction": "Fairy Tale Princess, Dual Support",
+    "description": "Alice is a young girl that likes desserts, amusement parks and cute stuffed animals. Oh, and the Time Genie and Mr. Bunny!",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Perfect DNA",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Alice dies, she increases the ATK of 1 partner on the battlefield and 1 partner in hand by {placeholder}, and their DEF by {placeholder}. Effect is doubled for Muscipula partners.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Anticlockwise",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"An enchanted but shattered clock. Alice attacks a single enemy and deals ATK * {placeholder} damage, increases the DMG Rate of Muscipula partners by {placeholder} for 3 rounds.\"}"
+    },
+    "specialSkill": {
+        "name": "Time Collision",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Time is reversed and she now grows younger. Alice attacks a single enemy and deals ATK * {placeholder} damage, increasing ATK by {placeholder} for 3 rounds.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Raw Force",
+        "description": "Alice throws a clock at the target. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "An enchanted but shattered clock. Alice attacks a single enemy and deals ATK * {placeholder} damage, increases the DMG Rate of Muscipula partners by {placeholder} for 3 rounds.",
+        "lens5.skill": "When Alice dies, she increases the ATK of 1 partner on the battlefield and 1 partner in hand by {placeholder}, and their DEF by {placeholder}. Effect is doubled for Muscipula partners.",
+        "lens6.skill": "Time is reversed and she now grows younger. Alice attacks a single enemy and deals ATK * {placeholder} damage, increasing ATK by {placeholder} for 3 rounds.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 10,
+    "class": "LIGHT",
+    "faction": "MUSCIPULA"
+}

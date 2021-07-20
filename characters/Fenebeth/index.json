@@ -1,0 +1,30 @@
+{
+    "name": "Fenebeth",
+    "introduction": "Black Beauty, Deadly Curse",
+    "description": "Fenebeth hates humans and has a temper that even those in Uroboros are afraid of. Her curses never miss, and when you step into her trap, all you can do is wait for a painful death.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Curse",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Curses all enemy units when Fenebeth appears and when she dies, lasts 2 rounds.Curse: Every round the target takes damage equal to {placeholder} of caster's ATK, and all heals they receive are converted into DMG.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Ancient Burial",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Fenebeth commands the cursed fangs to cast an ancient affliction. Attacks the enemy team and deals ATK * {placeholder} damage. Heal class enemies take an additional {placeholder} damage.\"}"
+    },
+    "specialSkill": {
+        "name": "Possess",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"The bitter snake will corrupt the mind. Fenebeth attacks a single enemy and deals ATK * {placeholder} damage, reducing the target's ATK by {placeholder} for 2 rounds.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Pull",
+        "description": "Fenebeth commands her snake to strike. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Fenebeth commands the cursed fangs to cast an ancient affliction. Attacks the enemy team and deals ATK * {placeholder} damage. Heal class enemies take an additional {placeholder} damage.",
+        "lens5.skill": "Curses all enemy units when Fenebeth appears and when she dies, lasts 2 rounds.Curse: Every round the target takes damage equal to {placeholder} of caster's ATK, and all heals they receive are converted into DMG.",
+        "lens6.skill": "The bitter snake will corrupt the mind. Fenebeth attacks a single enemy and deals ATK * {placeholder} damage, reducing the target's ATK by {placeholder} for 2 rounds.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 16,
+    "class": "SORCERER",
+    "faction": "UROBOROS"
+}

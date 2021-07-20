@@ -1,0 +1,30 @@
+{
+    "name": "Mad Hatter",
+    "introduction": "Gentleman with a Hat, Sorcerer Counter",
+    "description": "Mr. Bunny is a gentleman and a hat maker whose attention to detail is unparalleled. Alice is his everything, so don't be surprised when he asks you if you've seen her.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Gazing at You",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When the Mad Hatter appears, Alice, Jasmine and Ann's DMG RES Rate increases by {placeholder}. Grants Alice an additional 15-second Invincible status.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Dreaming of You",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Creates 2 hats. When a hat is destroyed, the enemy team takes {placeholder} damage. Enemy sorcerers take additional {placeholder} damage.\"}"
+    },
+    "specialSkill": {
+        "name": "I'll Keep You Safe",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Tosses a pullet. Attacks an enemy and deals ATK * {placeholder} damage. Also grants Alice invincibility for 5 seconds.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Untouchable",
+        "description": "Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Creates 2 hats. When a hat is destroyed, the enemy team takes {placeholder} damage. Enemy sorcerers take additional {placeholder} damage.",
+        "lens5.skill": "When the Mad Hatter appears, Alice, Jasmine and Ann's DMG RES Rate increases by {placeholder}. Grants Alice an additional 15-second Invincible status.",
+        "lens6.skill": "Tosses a pullet. Attacks an enemy and deals ATK * {placeholder} damage. Also grants Alice invincibility for 5 seconds.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 14,
+    "class": "SUMMONER",
+    "faction": "LIBEROS"
+}

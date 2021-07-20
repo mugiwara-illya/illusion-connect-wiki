@@ -1,0 +1,30 @@
+{
+    "name": "Senkikumaru",
+    "introduction": "Hidden Tiger, Feline Attack",
+    "description": "A slightly chuuni young man who walks his path with determination.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Meditation",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"A fierce tiger, Mad Cloud, is hidden in Senkikumaru's scroll. Summons Mad Cloud when Senkikumaru joins the battle. Mad Cloud has {placeholder} of Senkikumaru's ATK, {placeholder} of his DEF, {placeholder} of his HP, {placeholder} of his Rage and all of his buffs. Mad Cloud unleashes Tiger Roar when its Rage is full, dealing ATK*{placeholder} damage to all enemies. (Max 2 Mad Cloud on the field.)Lineup Skill:Activation Requirement: Leader is Sakura Swordsman or Axe of Dawn.Activation Effect: The damage of Mad Cloud's Tiger Roar becomes true damage.\"}"
+    },
+    "uniqueSkill": {
+        "name": "North to South",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Look at my stylish move! Senkikumaru throws a scroll. Attacks a single enemy and deals ATK*{placeholder} damage. If Mad Cloud is present, restores {placeholder} of Max HP and {placeholder} Rage to Mad Cloud.\"}"
+    },
+    "specialSkill": {
+        "name": "Reveal",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Senkikumaru opens a scroll. Attacks a single enemy and deals ATK*{placeholder} damage. If Mad Cloud is present, orders it to attack once.Skill Cast Rate:{placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Scroll Blow",
+        "description": "Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Look at my stylish move! Senkikumaru throws a scroll. Attacks a single enemy and deals ATK*{placeholder} damage. If Mad Cloud is present, restores {placeholder} of Max HP and {placeholder} Rage to Mad Cloud.",
+        "lens5.skill": "A fierce tiger, Mad Cloud, is hidden in Senkikumaru's scroll. Summons Mad Cloud when Senkikumaru joins the battle. Mad Cloud has {placeholder} of Senkikumaru's ATK, {placeholder} of his DEF, {placeholder} of his HP, {placeholder} of his Rage and all of his buffs. Mad Cloud unleashes Tiger Roar when its Rage is full, dealing ATK*{placeholder} damage to all enemies. (Max 2 Mad Cloud on the field.)Lineup Skill:Activation Requirement: Leader is Sakura Swordsman or Axe of Dawn.Activation Effect: The damage of Mad Cloud's Tiger Roar becomes true damage.",
+        "lens6.skill": "Senkikumaru opens a scroll. Attacks a single enemy and deals ATK*{placeholder} damage. If Mad Cloud is present, orders it to attack once.Skill Cast Rate:{placeholder}"
+    },
+    "energyCost": 20,
+    "class": "SUMMONER",
+    "faction": "TOBUNKAI"
+}

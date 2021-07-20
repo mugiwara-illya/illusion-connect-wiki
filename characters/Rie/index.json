@@ -1,0 +1,30 @@
+{
+    "name": "Rie",
+    "introduction": "Bookworm Prodigy, Fatal Strike",
+    "description": "Many find it hard to approach her due to her high intelligence and poker face. Always thought to be planning some kind of conspiracy, but in reality she's just enjoying a moment of thinking about nothing.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Silver Dragon",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Rie gains 1 Immunity to Fatal DMG per battle, and DMG dealt to Guardian class enemies increases by {placeholder}.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Lost Pulse",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"A victory drink! Rie attacks 3 random enemies and deals ATK * {placeholder} damage. Has a {placeholder} chance to trigger [Frenzy] (not affected by Effect Hit), dealing 100% additional damage and [Stuns] the target for 1 round. After [Frenzy], her HP is reduced to 1.\"}"
+    },
+    "specialSkill": {
+        "name": "Intercept",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"49 years is but a blink of an eye. Rie attacks a single enemy and deals ATK * {placeholder} damage, restoring {placeholder} HP.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Speed Slash",
+        "description": "RIe attacks the enemy with all her might. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "A victory drink! Rie attacks 3 random enemies and deals ATK * {placeholder} damage. Has a {placeholder} chance to trigger [Frenzy] (not affected by Effect Hit), dealing 100% additional damage and [Stuns] the target for 1 round. HP is reduced to 1 after [Frenzy] is triggered.",
+        "lens5.skill": "Rie gains 1 Immunity to Fatal DMG per battle, and DMG dealt to Guardian class enemies increases by {placeholder}.",
+        "lens6.skill": "49 years is but a blink of an eye. Rie attacks a single enemy and deals ATK * {placeholder} damage, restoring {placeholder} HP.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 13,
+    "class": "SORCERER",
+    "faction": "TOBUNKAI"
+}

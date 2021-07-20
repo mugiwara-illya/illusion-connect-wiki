@@ -1,0 +1,30 @@
+{
+    "name": "Mary",
+    "introduction": "Thug First Mate, Burning Damage",
+    "description": "Most likely due to her gang history, Mary is bossy and rude, and would sometimes start things that could have been avoided. But she is still Annie's best sister and assistant.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Great Legends",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Mary appears, DMG Rate of all Ally partners in hand increases by {placeholder}, and her own CRIT in battle increases by {placeholder}.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Rainstorm",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Burn, baby, burn! Mary attacks an enemy column and deals ATK * {placeholder} damage, adding [Burn] to the targets, dealing ATK * {placeholder} damage every round for 3 rounds.\"}"
+    },
+    "specialSkill": {
+        "name": "Mist",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"A personalized attack. Mary attacks a single enemy and deals ATK * {placeholder} damage, increasing damage against Burning enemies by {placeholder} .Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Roaring Strike",
+        "description": "Mary swings her flamethrower around. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Burn, baby, burn! Mary attacks an enemy column and deals ATK * {placeholder} damage, adding [Burn] to the targets, dealing ATK * {placeholder} damage every round for 3 rounds.",
+        "lens5.skill": "When Mary appears, DMG Rate of all Ally partners in hand increases by {placeholder}, and her own CRIT in battle increases by {placeholder}.",
+        "lens6.skill": "A personalized attack. Mary attacks a single enemy and deals ATK * {placeholder} damage, increasing damage against Burning enemies by {placeholder} .Chance to use skill: {placeholder}"
+    },
+    "energyCost": 8,
+    "class": "SORCERER",
+    "faction": "LIBEROS"
+}

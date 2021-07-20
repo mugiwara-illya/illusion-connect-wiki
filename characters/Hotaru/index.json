@@ -1,0 +1,30 @@
+{
+    "name": "Hotaru",
+    "introduction": "Magic Swordsman, Burst Damage",
+    "description": "Hotaru once studied the formations her father left behind, so she is sensitive to strategies and tactics. But her personality is better suited for armed clashes instead of playing everything out on paper first.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Mitama",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Hotaru's CRIT in battle increases by {placeholder}; every ATK has a {placeholder}/{placeholder} chance of triggering a 1-hit/2-hit combo, dealing {placeholder}/{placeholder} ATK DMG to enemies in one column.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Linear Slash",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Yin and Yang, life and death. Hotaru attacks an enemy column and deals ATK * {placeholder} damage. Has a {placeholder} chance to stun the target for 1 round.\"}"
+    },
+    "specialSkill": {
+        "name": "Skill Slash",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Everything starts with Yin and Yang. Hotaru attacks a single enemy and deals ATK * {placeholder} damage. Has a {placeholder} chance to stun the target for 1 round.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Power Slash",
+        "description": "Hotaru swings her claymore. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Yin and Yang, life and death. Hotaru attacks an enemy column and deals ATK * {placeholder} damage. Has a {placeholder} chance to [Stun] the target for 1 round.",
+        "lens5.skill": "Hotaru's CRIT in battle increases by {placeholder}; every ATK has a {placeholder}/{placeholder} chance of triggering a 1-hit/2-hit combo, dealing {placeholder}/{placeholder} ATK DMG to enemies in one column.",
+        "lens6.skill": "Everything starts with Yin and Yang. Hotaru attacks a single enemy and deals ATK * {placeholder} damage. Has a {placeholder} chance to stun the target for 1 round.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 10,
+    "class": "ATTACKER",
+    "faction": "PHOENIX"
+}

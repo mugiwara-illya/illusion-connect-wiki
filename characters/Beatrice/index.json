@@ -1,0 +1,30 @@
+{
+    "name": "Beatrice",
+    "introduction": "Strange Nun, Cross Stun",
+    "description": "Not very sociable, has a unique personality and likes to daydream. But underneath her aloofness there lies a burning heart that loves everything and everyone in this world, and the desire to destroy everything evil and ugly.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Heaven",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Beatrice appears, every Light, Healing, and Guardian class enemy on the enemy side increases her ATK by {placeholder}, and her HP Max by {placeholder}.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Inferno",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Pray to the Chain of judgment. Beatrice attacks enemies in a cross pattern and deals ATK * {placeholder} damage. Has a {placeholder} chance to stun the target for 1 round.\"}"
+    },
+    "specialSkill": {
+        "name": "Underworld",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Beatrice summons the Soul Lock of the Kingdom. Attacks an enemy column and deals ATK * {placeholder} damage. Has a {placeholder} chance to stun the targets for 1 round.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Cleanse",
+        "description": "Beatrice spins her chains around. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Pray to the Chain of judgment. Beatrice attacks enemies in a cross pattern and deals ATK * {placeholder} damage. Has a {placeholder} chance to stun the target for 1 round.",
+        "lens5.skill": "When Beatrice appears, every Light, Healing, and Guardian class enemy on the enemy side increases her ATK by {placeholder}, and her HP Max by {placeholder}.",
+        "lens6.skill": "Beatrice summons the Soul Lock of the Kingdom. Attacks an enemy column and deals ATK * {placeholder} damage. Has a {placeholder} chance to stun the targets for 1 round.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 15,
+    "class": "SPELL",
+    "faction": "LIBEROS"
+}

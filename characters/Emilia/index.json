@@ -1,0 +1,30 @@
+{
+    "name": "Emilia",
+    "introduction": "Bond of Ice, Half-Elf's Blessing",
+    "description": "Candidate for the 42nd King of Lugnica, Contractor of Puck the Great Elf.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Lesser Spirit Blessing",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"After Emilia casts a Unique Skill, restores the total Unique Skill damage * {placeholder} HP to all allied partners.Lineup Skill:Have Ram or Rem in the lineup.Activation Effect: When Ram or Rem is present and Emilia is in the back row, grants Emilia Invincibility. The effect cannot be dispelled or stolen.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Permafrost",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Emilia deals ATK * {placeholder} damage to all enemies, preventing all enemies from restoring Rage for {placeholder} secs.\"}"
+    },
+    "specialSkill": {
+        "name": "Ice Flower",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Emilia deals ATK * {placeholder} damage to a single target. Also increases own Heal Rate by {placeholder}. Lasts 2 rounds. Skill Cast Rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Frost Flurry",
+        "description": "Deals {placeholder} of ATK damage to an enemy."
+    },
+    "templateData": {
+        "lens4.skill": "Emilia deals ATK * {placeholder} damage to all enemies, preventing all enemies from restoring Rage for {placeholder} secs.",
+        "lens5.skill": "After Emilia casts a Unique Skill, restores the total Unique Skill damage * {placeholder} HP to all allied partners.Lineup Skill:Have Ram or Rem in the lineup.Activation Effect: When Ram or Rem is present and Emilia is in the back row, grants Emilia Invincibility. The effect cannot be dispelled or stolen.",
+        "lens6.skill": "Emilia deals ATK * {placeholder} damage to a single target. Also increases own Heal Rate by {placeholder}. Lasts 2 rounds. Skill Cast Rate: {placeholder}"
+    },
+    "energyCost": 16,
+    "class": "HEALER",
+    "faction": "TheMist"
+}

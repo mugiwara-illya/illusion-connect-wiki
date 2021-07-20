@@ -1,0 +1,30 @@
+{
+    "name": "Averyl",
+    "introduction": "Energetic Girl, Cheerful and Inspiring",
+    "description": "An optimistic girl who is working hard to become the world's best host.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Victory Announcer",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When joining the battle, Averyl will appear in the position of a Light, Sorcerer or Summon partner and return the replaced one back to hand, reducing its energy by {placeholder}. This effect can be triggered 1 time per battle.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Victory Torch",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Averyl takes out a pompom and does a victory dance, increasing the ATK and Max HP of all allied units on the battlefield and in hand by {placeholder} (up to 2 stacks, each stack not exceeding 200% of Averyl's ATK).\"}"
+    },
+    "specialSkill": {
+        "name": "Victory Cheer",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Averyl spins happily. Attacks a single enemy and deals ATK*{placeholder} damage. Increases the ATK of the partner with the highest ATK by {placeholder} (up to 3 stacks).Skill Cast Rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Victory Shout",
+        "description": "Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Averyl takes out a pompom and does a victory dance, increasing the ATK and Max HP of all allied units on the battlefield and in hand by {placeholder} (up to 2 stacks, each stack not exceeding 200% of Averyl's ATK).",
+        "lens5.skill": "When joining the battle, Averyl will appear in the position of a Light, Sorcerer or Summon partner and return the replaced one back to hand, reducing its energy by {placeholder}. This effect can be triggered 1 time per battle.",
+        "lens6.skill": "Averyl spins happily. Attacks a single enemy and deals ATK*{placeholder} damage. Increases the ATK of the partner with the highest ATK by {placeholder} (up to 3 stacks).Skill Cast Rate: {placeholder}"
+    },
+    "energyCost": 10,
+    "class": "LIGHT",
+    "faction": "PHOENIX"
+}

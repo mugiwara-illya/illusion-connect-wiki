@@ -1,0 +1,30 @@
+{
+    "name": "Angela",
+    "introduction": "Light of SEED, Partner Reviver",
+    "description": "She came from an affluent family and had big dreams, so she joined SEED upon graduation. An independent and mature woman, she makes those around her feel safe. However, she can be a bit talkative sometimes.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Holy Knight",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Angela appears, 1 dead Ally partner is revived with {placeholder} HP; Angela also gains a {placeholder} HP Shield.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Sacred Ward",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Angela stops attacking and enters defensive mode. Unable to attack but increases DMG RES Rate (cannot be dispelled) by {placeholder} and taunts the enemy team for 2 rounds.\"}"
+    },
+    "specialSkill": {
+        "name": "Blessing Light",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"The dimensional shield becomes an impregnable barrier. Attacks a single enemy and deals ATK * {placeholder} damage, increasing DMG RES Rate by {placeholder} .Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Holy Light",
+        "description": "Angela swings her void blades. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Angela stops attacking and enters defensive mode. Unable to attack but increases DMG RES Rate (cannot be dispelled) by {placeholder} and taunts the enemy team for 2 rounds.",
+        "lens5.skill": "When Angela appears, 1 dead Ally partner is revived with {placeholder} HP; Angela also gains a {placeholder} HP Shield.",
+        "lens6.skill": "The dimensional shield becomes an impregnable barrier. Attacks a single enemy and deals ATK * {placeholder} damage, increasing DMG RES Rate by {placeholder} .Chance to use skill: {placeholder}"
+    },
+    "energyCost": 18,
+    "class": "GUARDIAN",
+    "faction": "SEED"
+}

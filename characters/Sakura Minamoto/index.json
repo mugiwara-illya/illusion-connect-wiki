@@ -1,0 +1,30 @@
+{
+    "name": "Sakura Minamoto",
+    "introduction": "Zombie Idol, Combo Attacks",
+    "description": "After waking up as a zombie with no memories of the past, she started working as an idol to save Saga prefecture. After getting back her memories and being depressed for a short period, she finally got back on stage with her teammates. She's a kind, hardworking and sweet girl who speaks in local dialect.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "What should I do?",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Sakura's HP is near 0, she becomes Zombified, inheriting 150% ATK, 100% DEF and 100% HP. All attacks will target random single enemies and cannot gain Rage.Team Skill: Deploy Sakura, Ai and Junko.Triggered Effect: When Sakura, Ai or Junko attacks, other allied idols will launch a combo attack.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Saga Attack",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Deals ATK * {placeholder} damage to all enemies and inflicting Bad Luck, causing the target to receive ATK * 60% after every action, as well as gain one of these debuffs for 1 round: Stun, Silence, ATK -30%, DEF -30%.\"}"
+    },
+    "specialSkill": {
+        "name": "Punch Of The Dead!",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Sakura deals {placeholder} damage to an enemy and reduces enemy's ATK by 20%Skill Cast Rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Fran Chou Chou's No. 1",
+        "description": "Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Deals ATK * {placeholder} damage to all enemies and inflicting Bad Luck, causing the target to receive ATK * 60% after every action, as well as gain one of these debuffs for 1 round: Stun, Silence, ATK -30%, DEF -30%.",
+        "lens5.skill": "When Sakura's HP is near 0, she becomes Zombified, inheriting 150% ATK, 100% DEF and 100% HP. All attacks will target random single enemies and cannot gain Rage.Team Skill: Deploy Sakura, Ai and Junko.Triggered Effect: When Sakura, Ai or Junko attacks, other allied idols will launch a combo attack.",
+        "lens6.skill": "Sakura deals {placeholder} damage to an enemy and reduces enemy's ATK by 20%Skill Cast Rate: {placeholder}"
+    },
+    "energyCost": 15,
+    "class": "SPELL",
+    "faction": "TOBUNKAI"
+}

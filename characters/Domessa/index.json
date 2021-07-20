@@ -1,0 +1,30 @@
+{
+    "name": "Domessa",
+    "introduction": "Tranquil Stars, Dazzling Specks",
+    "description": "Even after experiencing the dangers of this world, he still loves this planet, to the point of giving up his life in exchange for its future.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Post-Impressionism",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Domessa always strives for perfection in art. Every normal attack or special skill grants a shield which has {placeholder} of Max HP and increases DMG RES Rate by {placeholder} for 2 rounds.Lineup Skill:Activation Requirement: Leader is Light Paladin or Spirit Healer.Activation Effect: When Domessa joins the battle, transfers damage received by Leader to self and reduces damage by 50% for 20 seconds.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Heavenly Ward",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Stars gather and form a giant shield to protect Domessa. Domessa gains a shield that cannot be dispelled or stolen, with {placeholder} Block Rate and {placeholder} of Max HP for 2 rounds. Successfully blocking stuns the attacker for 1 round.\"}"
+    },
+    "specialSkill": {
+        "name": "Wild Color",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Domessa injects her passion into her painting, dealing ATK * {placeholder} damage to a single enemy and gaining a shield with {placeholder} of Max HP for 1 round.Skill Cast Rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Inspiration Strike",
+        "description": "Inspiration strikes and Domessa takes up her brush, dealing ATK * {placeholder} damage to a single enemy."
+    },
+    "templateData": {
+        "lens4.skill": "Stars gather and form a giant shield to protect Domessa. Domessa gains a shield that cannot be dispelled or stolen, with {placeholder} Block Rate and {placeholder} of Max HP for 2 rounds. Successfully blocking stuns the attacker for 1 round.",
+        "lens5.skill": "Domessa always strives for perfection in art. Every normal attack or special skill grants a shield which has {placeholder} of Max HP and increases DMG RES Rate by {placeholder} for 2 rounds.Lineup Skill:Activation Requirement: Leader is Light Paladin or Spirit Healer.Activation Effect: When Domessa joins the battle, transfers damage received by Leader to self and reduces damage by 50% for 20 seconds.",
+        "lens6.skill": "Domessa injects her passion into her painting, dealing ATK * {placeholder} damage to a single enemy and gaining a shield with {placeholder} of Max HP for 1 round.Skill Cast Rate: {placeholder}"
+    },
+    "energyCost": 12,
+    "class": "GUARDIAN",
+    "faction": "SEED"
+}

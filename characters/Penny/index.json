@@ -1,0 +1,30 @@
+{
+    "name": "Penny",
+    "introduction": "Fairy Tale Killer, Card Enhancement",
+    "description": "A corky girl who is diligent about her work and curious about everything. \"Disassemble first, research later\" seems to be her way of expressing interest.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Trembling Tale",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Penny appears, the ATK of the 2 Ally partners in hand with the highest Energy increases by {placeholder}, their CRIT Rate increases by {placeholder}, and her own DMG Rate in battle increases by {placeholder}.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Chasing Prey",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Bang! Penny attacks a single enemy and deals ATK * {placeholder} damage.\"}"
+    },
+    "specialSkill": {
+        "name": "Execution",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"A blow from behind. Attacks a single enemy and deals ATK * {placeholder} damage, increasing ATK of the ally with the highest energy in hand by {placeholder} .Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Hunter",
+        "description": "Penny goes into a frenzy. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Bang! Penny attacks a single enemy and deals ATK * {placeholder} damage.",
+        "lens5.skill": "When Penny appears, the ATK of the 2 Ally partners in hand with the highest Energy increases by {placeholder}, their CRIT Rate increases by {placeholder}, and her own DMG Rate in battle increases by {placeholder}.",
+        "lens6.skill": "A blow from behind. Attacks a single enemy and deals ATK * {placeholder} damage, increasing ATK of the ally with the highest energy in hand by {placeholder} .Chance to use skill: {placeholder}"
+    },
+    "energyCost": 14,
+    "class": "ATTACKER",
+    "faction": "PHOENIX"
+}

@@ -1,0 +1,30 @@
+{
+    "name": "Shanti",
+    "introduction": "Reckless but Cute, Emergency Defense",
+    "description": "A simple-minded magical girl. Once she sets her eyes on a target, she will go through with it no matter what it takes.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Melee Magic",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Shanti appears, she grants Invincible for 15 seconds; her own DMG RES Rate in battle increases by {placeholder}.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Justice Striker",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"A strike from the sky! Attacks a single enemy and deals ATK * {placeholder} damage.\"}"
+    },
+    "specialSkill": {
+        "name": "Justice 5",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"A 5-strike combo with love. Attacks a single enemy and deals ATK * {placeholder} damage, increasing DEF by {placeholder} .Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Swing of Justice",
+        "description": "Shanti swings her magical hammer. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "A strike from the sky! Attacks a single enemy and deals ATK * {placeholder} damage.",
+        "lens5.skill": "When Shanti appears, she grants Invincible for 15 seconds; her own DMG RES Rate in battle increases by {placeholder}.",
+        "lens6.skill": "A 5-strike combo with love. Attacks a single enemy and deals ATK * {placeholder} damage, increasing DEF by {placeholder} .Chance to use skill: {placeholder}"
+    },
+    "energyCost": 8,
+    "class": "GUARDIAN",
+    "faction": "SEED"
+}

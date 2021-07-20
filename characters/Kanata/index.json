@@ -1,0 +1,30 @@
+{
+    "name": "Kanata",
+    "introduction": "Eccentric Warrior, Spear Surprise",
+    "description": "Using chopsticks in a western restaurant, drinking tea with macaron, writing poems while drinking, enjoys singing and dancing... The Hanasaki family runs a temple, but this strange successor is giving the elders a big headache.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Eccentric",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"No desire for nirvana, no sin deserving hell. Having lived a life to the fullest, death is merely retirement. When Kanata joins the battle, increases CRIT Rate by {placeholder} for 2 rounds. Every critical hit restores {placeholder} Rage.Lineup Skill:Activation Requirement: Have Saya in the lineup.Activation Effect: When Saya dies, Kanata joins the battle or revives instantly with 100% HP and Rage.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Thousand Sorrows",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Every drop represents a thousand sorrows. Kanata splits the earth with her spear, dealing ATK * {placeholder} damage to a column of enemies, and increasing damage to enemies in the back column by {placeholder}.\"}"
+    },
+    "specialSkill": {
+        "name": "Lonely Boat",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Listening to the rain on a lonely boat. Kanata suddenly grabs her spear and sprints away like a flying arrow, dealing ATK * {placeholder} damage to a column of enemies, and increasing damage to enemies in the back column by {placeholder}.Skill Cast Rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Morning Moon",
+        "description": "Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Every drop represents a thousand sorrows. Kanata splits the earth with her spear, dealing ATK * {placeholder} damage to a column of enemies, and increasing damage to enemies in the back column by {placeholder}.",
+        "lens5.skill": "No desire for nirvana, no sin deserving hell. Having lived a life to the fullest, death is merely retirement. When Kanata joins the battle, increases CRIT Rate by {placeholder} for 2 rounds. Every critical hit restores {placeholder} Rage.Lineup Skill:Activation Requirement: Have Saya in the lineup.Activation Effect: When Saya dies, Kanata joins the battle or revives instantly with 100% HP and Rage.",
+        "lens6.skill": "Listening to the rain on a lonely boat. Kanata suddenly grabs her spear and sprints away like a flying arrow, dealing ATK * {placeholder} damage to a column of enemies, and increasing damage to enemies in the back column by {placeholder}.Skill Cast Rate: {placeholder}"
+    },
+    "energyCost": 12,
+    "class": "ATTACKER",
+    "faction": "TOBUNKAI"
+}

@@ -1,0 +1,30 @@
+{
+    "name": "Ann",
+    "introduction": "Master Puppeteer, Summon Puppets",
+    "description": "An easy-going and pure girl with a bright smile. A puppet master and a Radiant who fights Nightmares alongside her puppets.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Cutie Flash",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Ann's DMG Rate in battle increases by {placeholder}. When the Snow Queen is present, DMG Rate of all Allies increases by {placeholder}. When the Mermaid Princess is present, DMG RES Rate of all Allies increases by {placeholder}.Lineup Skill:Activation Requirement: No more than 2 partners of any one Energy type on the Team.Activation Reward: Mermaid Princess and Snow Queen increase HP Max by 60%.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Puppet Substitute",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Attacks a single enemy and deals ATK * {placeholder} damage. Also summons Mermaid Princess and Ice Queen to battle. They are unable to attack, but they inherits {placeholder} of Ann's DEF and {placeholder} of her HP..\"}"
+    },
+    "specialSkill": {
+        "name": "Puppet Wish",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Magic dolls fall from the sky and land on the enemy. Ann attacks a single enemy and deals ATK * {placeholder} damage, restoring {placeholder} Rage.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Star Trail",
+        "description": "Ann controls her magic puppet. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Attacks a single enemy and deals ATK * {placeholder} damage. Also summons Mermaid Princess and Ice Queen to battle. They are unable to attack, but they inherits {placeholder} of Ann's DEF and {placeholder} of her HP..",
+        "lens5.skill": "Ann's DMG Rate in battle increases by {placeholder}. When the Snow Queen is present, DMG Rate of all Allies increases by {placeholder}. When the Mermaid Princess is present, DMG RES Rate of all Allies increases by {placeholder}.Lineup Skill:Activation Requirement: No more than 2 partners of any one Energy type on the Team.Activation Reward: Mermaid Princess and Snow Queen increase HP Max by 60%.",
+        "lens6.skill": "Magic dolls fall from the sky and land on the enemy. Ann attacks a single enemy and deals ATK * {placeholder} damage, restoring {placeholder} Rage.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 14,
+    "class": "SUMMONER",
+    "faction": "MUSCIPULA"
+}

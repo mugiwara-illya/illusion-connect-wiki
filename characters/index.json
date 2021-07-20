@@ -1,0 +1,30 @@
+{
+    "name": "",
+    "introduction": "",
+    "description": "",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"\"}"
+    },
+    "uniqueSkill": {
+        "name": "",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"\"}"
+    },
+    "specialSkill": {
+        "name": "",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"\"}"
+    },
+    "normalSkill": {
+        "name": "",
+        "description": ""
+    },
+    "templateData": {
+        "lens4.skill": "",
+        "lens5.skill": "",
+        "lens6.skill": ""
+    },
+    "energyCost": 10,
+    "class": "LIGHT",
+    "faction": "MUSCIPULA"
+}

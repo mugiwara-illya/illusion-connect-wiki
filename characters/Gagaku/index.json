@@ -1,0 +1,30 @@
+{
+    "name": "Gagaku",
+    "introduction": "Beast-taming Flute, Fox Summoner",
+    "description": "A woman of few words, but very kind and makes those around her feel at peace. Protects the lives and hopes of many with her demonic flute.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "God of Gagaku",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Gagaku's DMG Rate in battle increases by {placeholder}. When summoned Spirit Fox dies, she deals {placeholder} ATK DMG to enemy unit with the lowest HP.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Whirlpool",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Foxes, to me! Gagaku attacks an enemy column and deals ATK * {placeholder} damage. Summons 3 spirit foxes to join the battle. The foxes inherit {placeholder} of Gagaku's ATK and have only 1 HP.\"}"
+    },
+    "specialSkill": {
+        "name": "Melody of Creek",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"A spirit fox has joined the battle! Gagaku attacks an enemy column and deals ATK * {placeholder} damage. Summons 1 spirit fox to join the battle. The fox inherits {placeholder} of Gagaku's ATK and have only 1 HP.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Melody of Tears",
+        "description": "Gagaku commands her fox to charge. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Foxes, to me! Gagaku attacks an enemy column and deals ATK * {placeholder} damage. Summons 3 spirit foxes to join the battle. The foxes inherit {placeholder} of Gagaku's ATK and have only 1 HP.",
+        "lens5.skill": "Gagaku's DMG Rate in battle increases by {placeholder}. When summoned Spirit Fox dies, she deals {placeholder} ATK DMG to enemy unit with the lowest HP.",
+        "lens6.skill": "A spirit fox has joined the battle! Gagaku attacks an enemy column and deals ATK * {placeholder} damage. Summons 1 spirit fox to join the battle. The fox inherits {placeholder} of Gagaku's ATK and have only 1 HP.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 15,
+    "class": "SUMMONER",
+    "faction": "PHOENIX"
+}

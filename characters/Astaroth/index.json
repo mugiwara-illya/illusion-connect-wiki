@@ -1,0 +1,30 @@
+{
+    "name": "Astaroth",
+    "introduction": "Demon Princess, Leader Protection",
+    "description": "The horns make her extremely beautiful. She's spending time in Uroboros because of Barinas, her brother. Her plan to destroy humanity is on hold because of her wicked love and jealousy towards Rotania.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Devil's Pact",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Anything so that you might live, Brother. When Astaroth dies, she restores {placeholder} Rage for the Leader and Barinas, and an additional {placeholder} HP for the Leader.Lineup Skill:Activation Requirement: Barinas is deployed in Lineup.Activation Reward: When Astaroth is present, allied Leader starts with Death RES effect.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Fm'latgh",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Astaroth awakens the power of demons to set the battlefield aflame. Attacks the enemy team and deals ATK * {placeholder} damage, {placeholder} of which heals the Leader.\"}"
+    },
+    "specialSkill": {
+        "name": "Xaf",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Going to put you all on a skewer! Astaroth attacks an enemy column and deals ATK * {placeholder} damage, {placeholder} of which heals the Leader.\"}"
+    },
+    "normalSkill": {
+        "name": "Grah'n",
+        "description": "Astaroth stabs the opponent in the heart with the demonic spike. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Astaroth awakens the power of demons to set the battlefield aflame. Attacks the enemy team and deals ATK * {placeholder} damage, {placeholder} of which heals the Leader.",
+        "lens5.skill": "Anything so that you might live, Brother. When Astaroth dies, she restores {placeholder} Rage for the Leader and Barinas, and an additional {placeholder} HP for the Leader.Lineup Skill:Activation Requirement: Barinas is deployed in Lineup.Activation Reward: When Astaroth is present, allied Leader starts with Death RES effect.",
+        "lens6.skill": "Going to put you all on a skewer! Astaroth attacks an enemy column and deals ATK * {placeholder} damage, {placeholder} of which heals the Leader."
+    },
+    "energyCost": 12,
+    "class": "SPELL",
+    "faction": "UROBOROS"
+}

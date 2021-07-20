@@ -1,0 +1,30 @@
+{
+    "name": "Kichou",
+    "introduction": "Perplexed Ninja, Bonus Damage",
+    "description": "I'm the Demon Lord's sharpest blade. This body...is merely a persistent watcher.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Day Dream",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When an enemy uses Unique Skill, Kichou will use Stealth if there is any partner or summoned in front of her, keeping her from damage until the Unique Skill ends. After every Stealth, Kichou gains {placeholder} CRIT Rate and CRIT Power for the entire battle (up to 6 stacks).Lineup Skill:Activation Requirement: Have Saya in the lineup.Activation Effect: When Kichou joins the battle, Saya instantly joins the back row if available, with 100% HP and Rage.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Dilemma",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"A ninja is a shadow that eradicates sin as an oni. Kichou deals ATK * {placeholder} damage to an enemy. If the target is a partner or summoned, additionally deals ATK * {placeholder} damage to the enemy Leader. Can be triggered once per round. Has a {placeholder} chance to double the damage.\"}"
+    },
+    "specialSkill": {
+        "name": "Shadow Slash",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Walk without a trace, kill without a sound. Kichou deals ATK~*{placeholder} damage to an enemy and gains {placeholder} CRIT Power for 2 rounds (up to 3 stacks).Skill Cast Rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Oni Assault",
+        "description": "Kichou deals ATK*{placeholder} damage to an enemy."
+    },
+    "templateData": {
+        "lens4.skill": "A ninja is a shadow that eradicates sin as an oni. Kichou deals ATK * {placeholder} damage to an enemy. If the target is a partner or summoned, additionally deals ATK * {placeholder} damage to the enemy Leader. Can be triggered once per round. Has a {placeholder} chance to double the damage.",
+        "lens5.skill": "When an enemy uses Unique Skill, Kichou will use Stealth if there is any partner or summoned in front of her, keeping her from damage until the Unique Skill ends. After every Stealth, Kichou gains {placeholder} CRIT Rate and CRIT Power for the entire battle (up to 6 stacks).Lineup Skill:Activation Requirement: Have Saya in the lineup.Activation Effect: When Kichou joins the battle, Saya instantly joins the back row if available, with 100% HP and Rage.",
+        "lens6.skill": "Walk without a trace, kill without a sound. Kichou deals ATK~*{placeholder} damage to an enemy and gains {placeholder} CRIT Power for 2 rounds (up to 3 stacks).Skill Cast Rate: {placeholder}"
+    },
+    "energyCost": 14,
+    "class": "ATTACKER",
+    "faction": "MUSCIPULA"
+}

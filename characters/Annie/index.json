@@ -1,0 +1,30 @@
+{
+    "name": "Annie",
+    "introduction": "Violent Captain, No Damage to Leader",
+    "description": "Kind, optimistic and used to taking care of others. She is also good at making plans and snap decisions, unless it's about her sister Mary, in which case all of that goes out of the window and is replaced by nothing but love.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Pirate King",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Annie is present, Ally Leader's DMG RES Rate increases by {placeholder}, and her own HP Max in battle increases by {placeholder}.Lineup Skill:Activation Requirement: Deploy at least 5 Sorcerer class partners.Activation Reward: When Annie is present, the DMG RES Rate of Ally Sorcerer class partners increases by 30%. Every empty enemy position increases Annie's DMG RES Rate by 3%.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Poseidon's Anchor",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"A strike so powerful it could puncture the deck. Annie attacks a single enemy and deals ATK * {placeholder} damage, increasing her max HP by {placeholder} .\"}"
+    },
+    "specialSkill": {
+        "name": "Plunder",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Picks up an anchor and spins it at a high speed. Annie attacks a single enemy and deals ATK * {placeholder} damage. Has a {placeholder} chance to stun the target for 1 round. Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Breaking Waves",
+        "description": "Annie smashes the target with the anchor. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "A strike so powerful it could puncture the deck. Annie attacks a single enemy and deals ATK * {placeholder} damage, increasing her max HP by {placeholder} .",
+        "lens5.skill": "When Annie is present, Ally Leader's DMG RES Rate increases by {placeholder}, and her own HP Max in battle increases by {placeholder}.Lineup Skill:Activation Requirement: Deploy at least 5 Sorcerer class partners.Activation Reward: When Annie is present, the DMG RES Rate of Ally Sorcerer class partners increases by 30%. Every empty enemy position increases Annie's DMG RES Rate by 3%.",
+        "lens6.skill": "Picks up an anchor and spins it at a high speed. Annie attacks a single enemy and deals ATK * {placeholder} damage. Has a {placeholder} chance to stun the target for 1 round. Chance to use skill: {placeholder}"
+    },
+    "energyCost": 12,
+    "class": "GUARDIAN",
+    "faction": "LIBEROS"
+}

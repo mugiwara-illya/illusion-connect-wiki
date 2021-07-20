@@ -1,0 +1,30 @@
+{
+    "name": "Emma",
+    "introduction": "Mad Scientist, Area Damage",
+    "description": "She is extremely logical and observant, making it easy for her to see through most things. As someone who lives and breathes research, she is obsessed with things that the world hasn't been able to come up with solutions for.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Unsolved Mystery",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Emma joins the battle, increases Emma's ATK by {placeholder} and DEF Penetration by {placeholder} for every single enemy partner on the field.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Big Bang",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Emma asks elemental water to crash into the enemy. Randomly attacks an enemy 6 times and deals damage equal to ATK * {placeholder}. Has a {placeholder} chance to stun the target for 1 round.\"}"
+    },
+    "specialSkill": {
+        "name": "Reconstruction",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Emma summons elemental water from above that crashes against the enemies. Attacks an enemy column and deals ATK * {placeholder} damage. Has a {placeholder} chance to stun the targets for 1 round.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Star Bright",
+        "description": "Emma fires an energy orb. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Emma asks elemental water to crash into the enemy. Randomly attacks an enemy 6 times and deals damage equal to ATK * {placeholder}. Has a {placeholder} chance to stun the target for 1 round.",
+        "lens5.skill": "When Emma joins the battle, increases Emma's ATK by {placeholder} and DEF Penetration by {placeholder} for every single enemy partner on the field.",
+        "lens6.skill": "Emma summons elemental water from above that crashes against the enemies. Attacks an enemy column and deals ATK * {placeholder} damage. Has a {placeholder} chance to stun the targets for 1 round.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 16,
+    "class": "SORCERER",
+    "faction": "PHOENIX"
+}

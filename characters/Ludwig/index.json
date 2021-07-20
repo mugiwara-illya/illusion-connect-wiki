@@ -1,0 +1,30 @@
+{
+    "name": "Ludwig",
+    "introduction": "Ubermensch, Heavy Punch",
+    "description": "An academic gifted with an excellent memory. Never comment on his height.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "I Am the Sun",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"I am the sun. I give without taking. When Ludwig joins the battle, reduces a partner with the highest Energy by {placeholder} Energy.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Nihilism",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Ludwig questions the audience with his Soul Hand, dealing {placeholder} damage to a row of enemies. Self and Leader gain a shield with {placeholder} of Ludwig's Max HP for 2 rounds.\"}"
+    },
+    "specialSkill": {
+        "name": "Strong Will",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Ludwig's Soul Hand hammers the soul, dealing ATK * {placeholder} damage to a single enemy, and has a {placeholder} chance of stunning them for 1 round.Skill Cast Rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Critique of Reason",
+        "description": "Ludwig deals ATK * {placeholder} damage to a single enemy."
+    },
+    "templateData": {
+        "lens4.skill": "Ludwig questions the audience with his Soul Hand, dealing {placeholder} damage to a row of enemies. Self and Leader gain a shield with {placeholder} of Ludwig's Max HP for 2 rounds.",
+        "lens5.skill": "I am the sun. I give without taking. When Ludwig joins the battle, reduces a partner with the highest Energy by {placeholder} Energy.",
+        "lens6.skill": "Ludwig's Soul Hand hammers the soul, dealing ATK * {placeholder} damage to a single enemy, and has a {placeholder} chance of stunning them for 1 round.Skill Cast Rate: {placeholder}"
+    },
+    "energyCost": 10,
+    "class": "GUARDIAN",
+    "faction": "SEED"
+}

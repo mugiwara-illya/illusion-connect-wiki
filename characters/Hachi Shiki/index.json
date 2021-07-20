@@ -1,0 +1,30 @@
+{
+    "name": "Hachi Shiki",
+    "introduction": "Izakaya Owner, Fatal Blow",
+    "description": "The boss of the izakaya looks like a fifteen-year-old girl. She likes to drink under the moon and cherishes peace and joy in the world. Her bark is worse than her bite. She's down-to-earth, appreciates practicality, and is always true to her word.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Drunken Stupor",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Hachi Shiki is stunned, increases your DMG RES Rate by 50%. Team Skill: Hachi Shiki goes to battle.Triggered Effect: Hachi Shiki is like a Nightmare to Rie. When the two are in the same team, reduces Rie's DMG Rate and DMG RES Rate by 80%.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Drunk Snake Dance",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Deals DMG equal to ATK * {placeholder} to 3 random enemies. Reduces the target's DMG RES Rate by 20%. Lasts the whole round and cannot be stacked, and has a 60% chance to trigger Enrage, increasing DMG by 100%, and stunning the target for 1 round. After triggering Enrage, you will be weak and Stunned for 1 round.\"}"
+    },
+    "specialSkill": {
+        "name": "Ghost Break",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Deals DMG equal to ATK * {placeholder} to an enemy. Increases your CRIT Rate by 20%. Skill release rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "One Blade",
+        "description": "Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Deals DMG equal to ATK * {placeholder} to 3 random enemies. Reduces the target's DMG RES Rate by 20%. Lasts the whole round and cannot be stacked, and has a 60% chance to trigger Enrage, increasing DMG by 100%, and stunning the target for 1 round. After triggering Enrage, you will be weak and Stunned for 1 round.",
+        "lens5.skill": "When Hachi Shiki is stunned, increases your DMG RES Rate by 50%. Team Skill: Hachi Shiki goes to battle.Triggered Effect: Hachi Shiki is like a Nightmare to Rie. When the two are in the same team, reduces Rie's DMG Rate and DMG RES Rate by 80%.",
+        "lens6.skill": "Deals DMG equal to ATK * {placeholder} to an enemy. Increases your CRIT Rate by 20%. Skill release rate: {placeholder}"
+    },
+    "energyCost": 16,
+    "class": "SORCERER",
+    "faction": "TOBUNKAI"
+}

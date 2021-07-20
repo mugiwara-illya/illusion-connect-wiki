@@ -1,0 +1,30 @@
+{
+    "name": "Cubie",
+    "introduction": "Sweet Love, Mesmerizing Heartbeat",
+    "description": "Cubie is a Radiant of SEED. As her family runs a dating agency, she has a way with making relationships work. Even Nightmares can be her clients.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Together Forever",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"If Cubie hits exactly 2 enemies with each arrow, the two will fall in love and be stunned for 1 round. In addition, the DMG will be increased by {placeholder}.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Great Honor",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Cubie fills the air with romance and shoots an arrow at each column of enemies, dealing ATK * {placeholder} damage.\"}"
+    },
+    "specialSkill": {
+        "name": "Heart Arrow",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Cubie shoots a love arrow, dealing ATK * {placeholder} damage to a column of enemies.Skill Cast Rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Single Strike",
+        "description": "Deals {placeholder} of ATK damage to an enemy."
+    },
+    "templateData": {
+        "lens4.skill": "Cubie fills the air with romance and shoots an arrow at each column of enemies, dealing ATK * {placeholder} damage.",
+        "lens5.skill": "If Cubie hits exactly 2 enemies with each arrow, the two will fall in love and be stunned for 1 round. In addition, the DMG will be increased by {placeholder}.",
+        "lens6.skill": "Cubie shoots a love arrow, dealing ATK * {placeholder} damage to a column of enemies.Skill Cast Rate: {placeholder}"
+    },
+    "energyCost": 11,
+    "class": "LIGHT",
+    "faction": "SEED"
+}

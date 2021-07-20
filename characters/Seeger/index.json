@@ -1,0 +1,30 @@
+{
+    "name": "Seeger",
+    "introduction": "Ruthless Withering, Desperate Blooming",
+    "description": "She has always been a simple girl living in the Dream. But when she wakes up, it is the beginning of the doomsday.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Mind Withering",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Seeger shows the most desperate dreams in everyone's mind. When Seeger joins battle, she deals {placeholder} of target's Max HP as true damage to all Partners on both sides, excluding Leaders, ignoring DMG RES Rate, DEF and Block. For each 1 Cost of the target, damage taken is reduced by {placeholder} of target's Max HP. Seeger slays all the summoned as well.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Desperate Blooming",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Seeger makes the desperate flowers bloom, dealing ATK* {placeholder} damage to all enemies. If it kills an enemy partner, the desperate flowers will bloom again and attack all enemies, but the DMG is reduced by {placeholder}. The skill can be cast for up to 2 additional times.\"}"
+    },
+    "specialSkill": {
+        "name": "Thorns of Pain",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Seeger releases thorns of pain, dealing ATK * {placeholder} damage to a column of enemies.Skill Cast Rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Withered Lash",
+        "description": "Deals {placeholder} of ATK damage to an enemy."
+    },
+    "templateData": {
+        "lens4.skill": "Seeger makes the desperate flowers bloom, dealing ATK* {placeholder} damage to all enemies. If it kills an enemy partner, the desperate flowers will bloom again and attack all enemies, but the DMG is reduced by {placeholder}. The skill can be cast for up to 2 additional times.",
+        "lens5.skill": "Seeger shows the most desperate dreams in everyone's mind. When Seeger joins battle, she deals {placeholder} of target's Max HP as true damage to all Partners on both sides, excluding Leaders, ignoring DMG RES Rate, DEF and Block. For each 1 Cost of the target, damage taken is reduced by {placeholder} of target's Max HP. Seeger slays all the summoned as well.",
+        "lens6.skill": "Seeger releases thorns of pain, dealing ATK * {placeholder} damage to a column of enemies.Skill Cast Rate: {placeholder}"
+    },
+    "energyCost": 20,
+    "class": "SPELL",
+    "faction": "UROBOROS"
+}

@@ -1,0 +1,30 @@
+{
+    "name": "Amon",
+    "introduction": "Another World, Revive the dead",
+    "description": "An envoy of Amon the god, will do anything from playing tricks to destroying cities to please Amon. An expert at gaining trust with her looks, and then torturing the foolish ones with conspiracies and traps.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Curse of Fate",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When 3 or fewer enemies are present, Amon's ATK increases by {placeholder}, and her DEF increases by {placeholder}.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Ascension",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Opens the coffin of the slumbering Pharaoh. Revives a dead ally with {placeholder} HP and {placeholder} Rage.\"}"
+    },
+    "specialSkill": {
+        "name": "Nightmare Casket",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Transforms sand into a blade. Amon attacks an enemy column and deals ATK * {placeholder} damage, restores HP equal to {placeholder} of ATK to self and revived partners.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Swallow",
+        "description": "Amon swings the holy coffin. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Opens the coffin of the slumbering Pharaoh. Revives a dead ally with {placeholder} HP and {placeholder} Rage.",
+        "lens5.skill": "When 3 or fewer enemies are present, Amon's ATK increases by {placeholder}, and her DEF increases by {placeholder}.",
+        "lens6.skill": "Transforms sand into a blade. Amon attacks an enemy column and deals ATK * {placeholder} damage, restores HP equal to {placeholder} of ATK to self and revived partners.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 13,
+    "class": "LIGHT",
+    "faction": "UROBOROS"
+}

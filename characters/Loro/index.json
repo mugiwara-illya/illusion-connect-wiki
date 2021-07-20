@@ -1,0 +1,30 @@
+{
+    "name": "Loro",
+    "introduction": "Weak Girl, Shield Defense",
+    "description": "A crybaby who is timid and weak, like a newborn animal. Panics when something happens, but has a pure heart and wants to protect others.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Giant Shield",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Loro appears, she grants a {placeholder} HP Shield; her own Block Rate in battle increases by {placeholder}.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Holy Shield",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Strikes the enemy with the energy of shield crystal. Attacks a single enemy and deals ATK * {placeholder} damage, increasing Block Rate by {placeholder} .\"}"
+    },
+    "specialSkill": {
+        "name": "Flying Shield",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Tosses the huge shield. Attacks a single enemy and deals ATK * {placeholder} damage, increasing Block Rate by {placeholder} .Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Shield Bash",
+        "description": "Loro smashes the enemy with her shield. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Strikes the enemy with the energy of shield crystal. Attacks a single enemy and deals ATK * {placeholder} damage, increasing Block Rate by {placeholder} .",
+        "lens5.skill": "When Loro appears, she grants a {placeholder} HP Shield; her own Block Rate in battle increases by {placeholder}.",
+        "lens6.skill": "Tosses the huge shield. Attacks a single enemy and deals ATK * {placeholder} damage, increasing Block Rate by {placeholder} .Chance to use skill: {placeholder}"
+    },
+    "energyCost": 11,
+    "class": "GUARDIAN",
+    "faction": "SEED"
+}

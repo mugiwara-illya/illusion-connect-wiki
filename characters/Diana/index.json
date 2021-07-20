@@ -1,0 +1,30 @@
+{
+    "name": "Diana",
+    "introduction": "Girl of Renaissance, Leader Rescuing",
+    "description": "Diana is considerate, dependable and well-organized. She can be considered as everyone's older sister that helps them with everything.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Holy Mother",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Diana appears, allied Leader restores {placeholder} HP; her own Heal Rate in battle increases by {placeholder}.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Sacred Order",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Raises the flag of oath and floods the battlefield with holy light. Diana attacks a single enemy and deals ATK * {placeholder} damage, restoring all HP to the ally partner with the lowest HP, but reducing the partner's Recovery Rate by {placeholder} .\"}"
+    },
+    "specialSkill": {
+        "name": "Divine Punishment",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Purifies the corruption to save shattered lives. Attacks a single enemy and deals ATK * {placeholder} damage, restoring HP equal to {placeholder} of ATK.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Punishment",
+        "description": "Diana waves her flag. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Raises the flag of oath and floods the battlefield with holy light. Diana attacks a single enemy and deals ATK * {placeholder} damage, restoring all HP to the ally partner with the lowest HP, but reducing the partner's Recovery Rate by {placeholder} .",
+        "lens5.skill": "When Diana appears, allied Leader restores {placeholder} HP; her own Heal Rate in battle increases by {placeholder}.",
+        "lens6.skill": "Purifies the corruption to save shattered lives. Attacks a single enemy and deals ATK * {placeholder} damage, restoring HP equal to {placeholder} of ATK.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 14,
+    "class": "HEALER",
+    "faction": "PHOENIX"
+}

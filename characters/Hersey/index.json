@@ -1,0 +1,30 @@
+{
+    "name": "Hersey",
+    "introduction": "Bloodlust Maid, Sorcerer Killer",
+    "description": "A very famous Nightmare Hunter. Just like others who are powerful, she looks aloof, cold and arrogant, with a dominating aura. But deep down there are pains and hatred that no one knows about.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Infamous",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Hersey appears, she deals {placeholder} ATK DMG to all enemy partners, and an additional {placeholder} DMG to Sorcerer class partners; her DMG Rate in battle increases by {placeholder}.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Betrayal",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Hunters are excited by their preys. Hersey attacks a single enemy and deals ATK * {placeholder} damage. Enemy sorcerers will be attacked first.\"}"
+    },
+    "specialSkill": {
+        "name": "Bloodlust",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Hersey looks for her prey. Attacks a single enemy and deals ATK * {placeholder} damage. Enemy sorcerer partners are attacked first. Increases CRIT by {placeholder} when attacking.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Hunter",
+        "description": "Hersey rips open wounds with her claws. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "The presence of prey stimulates every nerve of the hunter. Hersey attacks a single enemy and deals ATK * {placeholder} damage, and deals 30% Spread Shot DMG to other enemy Sorcerer partners.",
+        "lens5.skill": "When Hersey appears, she deals {placeholder} ATK DMG to all enemy partners, and an additional {placeholder} DMG to Sorcerer class partners; her DMG Rate in battle increases by {placeholder}.",
+        "lens6.skill": "Hersey looks for her prey. Attacks a single enemy and deals ATK * {placeholder} damage. Enemy sorcerer partners are attacked first. Increases CRIT by {placeholder} when attacking.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 15,
+    "class": "ATTACKER",
+    "faction": "LIBEROS"
+}

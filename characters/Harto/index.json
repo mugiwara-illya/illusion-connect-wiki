@@ -1,0 +1,30 @@
+{
+    "name": "Harto",
+    "introduction": "Rebellious Scholar, Light & Spell Counter",
+    "description": "Has an extremely open mind and a free spirit. Loves anything and everything new. A collector of unique and beautiful clothes and a fashion expert. Models for fashion magazines, but also designs her own clothes.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Sky Oracle",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Harto's DMG to Light and Spell class enemies increases by {placeholder}, and her CRIT Rate increases by {placeholder}.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Eye of Horus",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"The gaze from eye of Horus is frightening. Attacks the enemy team and deals ATK * {placeholder} damage. For each enemy that is Light or Spell class, increases damage by {placeholder}.\"}"
+    },
+    "specialSkill": {
+        "name": "Gift of God",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Punishes the sinner with a magic circle. Harto attacks a single enemy and deals ATK * {placeholder} damage. Deals double damage to enemies of Light and Spell classes.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Divine Power",
+        "description": "Harto triggers an explosion over a small area. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "The gaze from eye of Horus is frightening. Attacks the enemy team and deals ATK * {placeholder} damage. For each enemy that is Light or Spell class, increases damage by {placeholder}.",
+        "lens5.skill": "Harto's DMG to Light and Spell class enemies increases by {placeholder}, and her CRIT Rate increases by {placeholder}.",
+        "lens6.skill": "Punishes the sinner with a magic circle. Harto attacks a single enemy and deals ATK * {placeholder} damage. Deals double damage to enemies of Light and Spell classes.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 16,
+    "class": "LIGHT",
+    "faction": "SEED"
+}

@@ -1,0 +1,30 @@
+{
+    "name": "Pan",
+    "introduction": "Mysterious Tribe, Healer Counter",
+    "description": "Pan is someone who is hard to read. She comes and goes as she pleases and no one can keep her down, but when she is around she gets on everyone's nerves. Energetic, easily distracted, and curious about everything.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Thief",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Every empty position on the battlefield increases Pan's ATK by {placeholder}. Unique Skill causes target to speak the Truth from time to time, increasing Pan's CRIT Rate in battle by {placeholder}.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Incantation Chain",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"The enemy's mind is shackled by the words of truth. Pan attacks a single enemy and deals ATK * {placeholder} damage, reducing the target's Recovery Rate by {placeholder} for 3 rounds.\"}"
+    },
+    "specialSkill": {
+        "name": "Flurry",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Quick slashes that rip open an enemy's wound. Pan attacks a single enemy and deals ATK * {placeholder} damage, restoring {placeholder} Rage.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Wind Blade",
+        "description": "Pan quickly stabs her opponent. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "The enemy's mind is shackled by the words of truth. Pan attacks a single enemy and deals ATK * {placeholder} damage, reducing the target's Recovery Rate by {placeholder} for 3 rounds.",
+        "lens5.skill": "Every empty position on the battlefield increases Pan's ATK by {placeholder}. Unique Skill causes target to speak the Truth from time to time, increasing Pan's CRIT Rate in battle by {placeholder}.",
+        "lens6.skill": "Quick slashes that rip open an enemy's wound. Pan attacks a single enemy and deals ATK * {placeholder} damage, restoring {placeholder} Rage.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 14,
+    "class": "ATTACKER",
+    "faction": "LIBEROS"
+}

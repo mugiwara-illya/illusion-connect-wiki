@@ -1,0 +1,30 @@
+{
+    "name": "Silver Dragon - Rie",
+    "introduction": "Frozen Heart, Vain Solitude",
+    "description": "Cut off all desire and emotions. That is how you gain immeasurable power. From now on, from this moment, I will not let the people close to me be harmed again.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Military God",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"The dragon's fury trembles across the frozen plains of ice. When Silver Dragon - Rie joins the battle, grants {placeholder} stack(s) of Death RES. While Silver Dragon - Rie is present, revived enemy partners will be frozen for 15 seconds. This effect can at most activate {placeholder} time(s) during battle.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Flash in the Pan",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Even a life-long prosperity is but a flash in the pan; Even the greatest general is ruined in a single battle. Silver Dragon - Rie deals ATK * {placeholder} damage to a column of enemies. When target HP is greater than 50%, Silver Dragon - Rie deals an additional ATK * {placeholder} true damage. When Silver Dragon Rie's HP is lower than 50%, the target is frozen for 15 seconds. Overflow damage from this attack is converted to HP. (Damage becomes overflow when it is rendered ineffective because the target was dead, invincible, or had Death RES.)\"}"
+    },
+    "specialSkill": {
+        "name": "Single Strike",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"A life of forty-nine years is cut off in a single strike. Silver Dragon - Rie attacks a single enemy and deals ATK * {placeholder} damage. Also freezes the target for 15 seconds.Skill Cast Rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Lonesome Slash",
+        "description": "Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Even a life-long prosperity is but a flash in the pan; Even the greatest general is ruined in a single battle. Silver Dragon - Rie deals ATK * {placeholder} damage to a column of enemies. When target HP is greater than 50%, Silver Dragon - Rie deals an additional ATK * {placeholder} true damage. When Silver Dragon Rie's HP is lower than 50%, the target is frozen for 15 seconds. Overflow damage from this attack is converted to HP.{placeholder} of overflow damage is added to the next Unique Skill attack. (Damage becomes overflow when it is rendered ineffective because the target was dead, invincible, or had Death RES.)",
+        "lens5.skill": "The dragon's fury trembles across the frozen plains of ice. When Silver Dragon - Rie joins the battle, grants {placeholder} stack(s) of Death RES. While Silver Dragon - Rie is present, revived enemy partners will be frozen for 15 seconds. This effect can at most activate {placeholder} time(s) during battle.",
+        "lens6.skill": "A life of forty-nine years is cut off in a single strike. Silver Dragon - Rie attacks a single enemy and deals ATK * {placeholder} damage. Also freezes the target for 15 seconds.Skill Cast Rate: {placeholder}"
+    },
+    "energyCost": 17,
+    "class": "ATTACKER",
+    "faction": "TOBUNKAI"
+}

@@ -1,0 +1,30 @@
+{
+    "name": "Ming",
+    "introduction": "Compassionate and Skillful",
+    "description": "A young \"old physician\" born in a family of TCM physicians. She often uses her income to help the needy while she lives a frugal life. Because of this, she despises the rich who squander away their money.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Relief",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Ming is present, every action taken by allied Spirits restores {placeholder} of their max HP. Ming and Guardians receive double healing.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Old Physician",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Restores ATK * {placeholder}  HP to all allies. Every ally healed by Ming gains {placeholder} ATK and DEF. The effect lasts the entire battle and cannot stack.\"}"
+    },
+    "specialSkill": {
+        "name": "Go Yam",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Deals {placeholder} damage to a column of enemies. Dispels 1 debuff of a random allied Spirit. Chance to use Skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Doctor's Heart",
+        "description": "Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Restores ATK * {placeholder}  HP to all allies. Every ally healed by Ming gains {placeholder} ATK and DEF. The effect lasts the entire battle and cannot stack.",
+        "lens5.skill": "When Ming is present, every action taken by allied Spirits restores {placeholder} of their max HP. Ming and Guardians receive double healing.",
+        "lens6.skill": "Deals {placeholder} damage to a column of enemies. Dispels 1 debuff of a random allied Spirit. Chance to use Skill: {placeholder}"
+    },
+    "energyCost": 16,
+    "class": "HEALER",
+    "faction": "PHOENIX"
+}

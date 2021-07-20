@@ -1,0 +1,30 @@
+{
+    "name": "Ophelia",
+    "introduction": "Mysterious Lock, Cold Wounds",
+    "description": "The mortician holding a mysterious suitcase has a strange curiosity for the Radiants.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "My Beloved",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Every time an enemy partner dies while Ophelia is present, 1 Beloved is summoned. The dead partner is shackled within and cannot be revived until the Beloved is destroyed. The Beloved cannot attack, and receives {placeholder} of Ophelia's DEF and HP. Beloved increases DMG RES Rate by {placeholder} and ignores DMG from normal attacks and Special Skills. There may be at most {placeholder} Beloved(s) at one time. An allied partner may be deployed atop a Beloved to immediately destroy it.\"}"
+    },
+    "uniqueSkill": {
+        "name": "End",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Ophelia has an intimate knowledge of the human body and knows how to destroy it beyond repair. Dispels the invincible status of a single enemy and enemies behind it and deals ATK * {placeholder} damage each. Also decreases max HP by the same amount and Wounds them (Reduces shields and healing effects by {placeholder}). Lasts 20 seconds.\"}"
+    },
+    "specialSkill": {
+        "name": "Y-Incision",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Ophelia deals ATK * {placeholder} damage to a single target. Doubles the damage to enemies of male spirits or summoned.Skill Cast Rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Slice",
+        "description": "Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Ophelia has an intimate knowledge of the human body and knows how to destroy it beyond repair. Dispels the invincible status of a single enemy and enemies behind it and deals ATK * {placeholder} damage each. Doubles the damage to enemies of male spirits or summoned. Also decreases max HP by the same amount and Wounds them (Reduces shields and healing effects by {placeholder}). Lasts 20 seconds.",
+        "lens5.skill": "Every time an enemy partner dies while Ophelia is present, 1 Beloved is summoned. The dead partner is shackled within and cannot be revived until the Beloved is destroyed. The Beloved cannot attack, and receives {placeholder} of Ophelia's DEF and HP. Beloved increases DMG RES Rate by {placeholder} and ignores DMG from normal attacks and Special Skills. There may be at most {placeholder} Beloved(s) at one time. An allied partner may be deployed atop a Beloved to immediately destroy it.",
+        "lens6.skill": "Ophelia deals ATK * {placeholder} damage to a single target. Doubles the damage to enemies of male spirits or summoned.Skill Cast Rate: {placeholder}"
+    },
+    "energyCost": 14,
+    "class": "ATTACKER",
+    "faction": "LIBEROS"
+}

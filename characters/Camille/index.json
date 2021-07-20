@@ -1,0 +1,30 @@
+{
+    "name": "Camille",
+    "introduction": "Rose Gentleman, Damage Reflector",
+    "description": "The heir of a rich family, Camille has impeccable taste and can't stand those without. He is also an expert at expressing disgust without making his listeners feel bad.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Fairy Tale Prince",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Before Camille appears, every enemy or allied partner's death deducts 1 Energy and increases HP Max by {placeholder}.Lineup Skill:Activation Requirement: Average Lineup Energy greater than or equal to 14.Activation Reward: Camille taunts all enemies for 2 rounds when joining the battle. Increases max HP by 30%.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Rose Shield",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"The knight of roses wraps thorns around himself. Attacks a single enemy and deals ATK *{placeholder} damage, gaining a shield with {placeholder} of Max HP, and increasing own Reflect Rate by {placeholder} for 2 rounds. The effect is not stackable. \"}"
+    },
+    "specialSkill": {
+        "name": "Scarlet Rose",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"The pain is converted into a crimson rose. Attacks a single enemy and deals ATK * {placeholder} damage, restoring his own HP by {placeholder} . Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Quick Stab",
+        "description": "Camille stabs his target with his favorite weapon. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "The knight of roses wraps thorns around himself. Attacks a single enemy and deals ATK *{placeholder} damage, gaining a shield with {placeholder} of Max HP, and increasing own Reflect Rate by {placeholder} for 2 rounds. The effect is not stackable. ",
+        "lens5.skill": "Before Camille appears, every enemy or allied partner's death deducts 1 Energy and increases HP Max by {placeholder}.Lineup Skill:Activation Requirement: Average Lineup Energy greater than or equal to 14.Activation Reward: Camille taunts all enemies for 2 rounds when joining the battle. Increases max HP by 30%.",
+        "lens6.skill": "The pain is converted into a crimson rose. Attacks a single enemy and deals ATK * {placeholder} damage, restoring his own HP by {placeholder} . Chance to use skill: {placeholder}"
+    },
+    "energyCost": 20,
+    "class": "GUARDIAN",
+    "faction": "SEED"
+}

@@ -1,0 +1,30 @@
+{
+    "name": "Ion",
+    "introduction": "Fierce Knight, True Damage",
+    "description": "Loyalty and courage are her trademarks. A powerful armory is the source of her confidence.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "I'm the Third Saint",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"After Ion has dealt a 3-tier damage to an enemy, she deals additional ATK * {placeholder} true damage (ignores DEF, Block and DMG RES Rate).\"}"
+    },
+    "uniqueSkill": {
+        "name": "Normal Judgment",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Ion deals a 3-tier damage. Tier 1: Swings her battleaxe to dispel target's Invincible status, dealing ATK * {placeholder} damage. Tier 2: Stabs with a spear, dealing ATK * {placeholder} damage to a column of enemies. Tier 3: Slashes with her greatsword while an artifact descends from heaven, dealing ATK * {placeholder} damage to all enemies.\"}"
+    },
+    "specialSkill": {
+        "name": "Ordinary Combo",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Ion deals a 2-tier damage to an enemy, each tier deals ATK * {placeholder} damage.Skill Cast Rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Simple Crossbow",
+        "description": "Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Ion deals a 3-tier damage. Tier 1: Swings her battleaxe to dispel target's Invincible status, dealing ATK * {placeholder} damage. Tier 2: Stabs with a spear, dealing ATK * {placeholder} damage to a column of enemies. Tier 3: Slashes with her greatsword while an artifact descends from heaven, dealing ATK * {placeholder} damage to all enemies.",
+        "lens5.skill": "After Ion has dealt a 3-tier damage to an enemy, she deals additional ATK * {placeholder} true damage (ignores DEF, Block and DMG RES Rate).",
+        "lens6.skill": "Ion deals a 2-tier damage to an enemy, each tier deals ATK * {placeholder} damage.Skill Cast Rate: {placeholder}"
+    },
+    "energyCost": 14,
+    "class": "LIGHT",
+    "faction": "SEED"
+}

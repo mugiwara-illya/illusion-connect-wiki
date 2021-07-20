@@ -1,0 +1,30 @@
+{
+    "name": "Brooke",
+    "introduction": "White Crane in the Clouds, Guardian DPS",
+    "description": "A sincere and mature 16-year-old girl without any desires. There is a mysterious power from the East surrounding her.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Selfless Heart",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Brooke absorbs the qi of heaven and earth when she appears, restoring {placeholder} Rage to the partner directly behind her.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Loyal Hatchet",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Brooke deals ATK *  {placeholder} damage to a row of enemies. This damage includes ATK * {placeholder} damage of the partner directly behind Brooke.\"}"
+    },
+    "specialSkill": {
+        "name": "Crane Wings",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Deals {placeholder} damage to a column of enemies. Grants a random allied partner a shield with a durability of 10% of max HP. The effect lasts the entire battle and cannot stack.Skill Cast Rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Golden Light Mudra",
+        "description": "Brooke deals {placeholder} damage to single enemy."
+    },
+    "templateData": {
+        "lens4.skill": "Brooke deals ATK *  {placeholder} damage to a row of enemies. This damage includes ATK * {placeholder} damage of the partner directly behind Brooke.",
+        "lens5.skill": "Brooke absorbs the qi of heaven and earth when she appears, restoring {placeholder} Rage to the partner directly behind her.",
+        "lens6.skill": "Deals {placeholder} damage to a column of enemies. Grants a random allied partner a shield with a durability of 10% of max HP. The effect lasts the entire battle and cannot stack.Skill Cast Rate: {placeholder}"
+    },
+    "energyCost": 16,
+    "class": "LIGHT",
+    "faction": "PHOENIX"
+}

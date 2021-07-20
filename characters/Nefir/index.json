@@ -1,0 +1,30 @@
+{
+    "name": "Nefir",
+    "introduction": "Snake Manipulator, Random Assassination",
+    "description": "Her life is all about the newest fashion, the most exquisite gems, and the most expensive makeup. She is a walking demonstration of what she thinks beauty should be. Hungry for power and wealth.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Exceptional Beauty",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"\"}"
+    },
+    "uniqueSkill": {
+        "name": "Snake Trap",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"\"}"
+    },
+    "specialSkill": {
+        "name": "Venom Fang",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"\"}"
+    },
+    "normalSkill": {
+        "name": "Devour",
+        "description": "Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "",
+        "lens5.skill": "",
+        "lens6.skill": ""
+    },
+    "energyCost": 30,
+    "class": "ATTACKER",
+    "faction": "PHOENIX"
+}

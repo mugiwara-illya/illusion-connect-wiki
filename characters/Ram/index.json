@@ -1,0 +1,30 @@
+{
+    "name": "Ram",
+    "introduction": "Hornless Oni, Wind Magic",
+    "description": "One of the two members from the oni village. Manages House Roswaal with her twin sister Rem.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Clairvoyance",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Ram has all the information on the battlefield. Additionally deals ATK * {placeholder} damage to all enemies. The damage will not cause death.Lineup Skill:Activation Requirement: Have Rem in the lineup.Activation Effect: When 1 of allied Rem or Ram dies, grants the other one 1000 Rage.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Furious Wind",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Ram casts Wind Magic and deals ATK * {placeholder} damage to all enemies. Additionally deals Ram's ATK * {placeholder} damage to the enemies around each target.\"}"
+    },
+    "specialSkill": {
+        "name": "Tornado",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Ram deals ATK * {placeholder} damage to all enemies. Additionally deals Ram's ATK * {placeholder} damage to the enemies around each target.Skill Cast Rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Wind Blade",
+        "description": "Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Ram casts Wind Magic and deals ATK * {placeholder} damage to all enemies. Additionally deals Ram's ATK * {placeholder} damage to the enemies around each target.",
+        "lens5.skill": "Ram has all the information on the battlefield. Additionally deals ATK * {placeholder} damage to all enemies. The damage will not cause death.Lineup Skill:Activation Requirement: Have Rem in the lineup.Activation Effect: When 1 of allied Rem or Ram dies, grants the other one 1000 Rage.",
+        "lens6.skill": "Ram deals ATK * {placeholder} damage to all enemies. Additionally deals Ram's ATK * {placeholder} damage to the enemies around each target.Skill Cast Rate: {placeholder}"
+    },
+    "energyCost": 12,
+    "class": "SORCERER",
+    "faction": "TheMist"
+}

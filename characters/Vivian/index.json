@@ -1,0 +1,30 @@
+{
+    "name": "Vivian",
+    "introduction": "Mysterious Traveller, Energy Reduction",
+    "description": "An occultism scholar who believes in fate. She likes to travel, and reads palms or sells mysterious treasures along the way. She enjoys the nomad life and makes decisions based on her own fortune telling results.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Mysterious Belief",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Vivian appears, 9 Energy is deducted from the next partner to appear.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Celestial Lore",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Vivian rips the enemy's soul apart to create energy. Attacks a single enemy and deals ATK * {placeholder} damage, increasing DEF by {placeholder} for 3 rounds.\"}"
+    },
+    "specialSkill": {
+        "name": "Star Spell",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Vivian utters a mysterious spell. Attacks a single enemy and deals ATK * {placeholder} damage, restoring {placeholder} HP.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Soul Drive",
+        "description": "Vivian charges at the enemy with her sword. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Vivian rips the enemy's soul apart to create energy. Attacks a single enemy and deals ATK * {placeholder} damage, increasing DEF by {placeholder} for 3 rounds.",
+        "lens5.skill": "When Vivian appears, 9 Energy is deducted from the next partner to appear.",
+        "lens6.skill": "Vivian utters a mysterious spell. Attacks a single enemy and deals ATK * {placeholder} damage, restoring {placeholder} HP.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 17,
+    "class": "LIGHT",
+    "faction": "LIBEROS"
+}

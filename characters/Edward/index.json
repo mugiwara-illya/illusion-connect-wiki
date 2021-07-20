@@ -1,0 +1,30 @@
+{
+    "name": "Edward",
+    "introduction": "Magical Phantom Thief, Steal Buff",
+    "description": "The phantom thief Gray Shadow disguised as a magician, a slummy noble. He never gives up the faith of robbing the rich and giving to the poor.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Robin Hood",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Edward appears, he steals 100% Rage from the enemy Spirit with the highest Rage and distributes it equally to all allied Spirits.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Illusive Trick",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Edward performs psychedelic card tricks, dealing DMG equal to {placeholder} of ATK and stealing all of the target's buff. Stealing has no effect on enemy leader. A success stealing grants 6% CRIT Rate for every stack. The effect lasts the entire battle and stacks up to 5 times.\"}"
+    },
+    "specialSkill": {
+        "name": "Hula",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Edward deals DMG equal to {placeholder} of ATK to a single target. Before attacking, he steals 1 buff. Stealing has no effect on enemy leader. If it succeeds, it grants 12% CRIT Rate. The effect lasts the entire battle and cannot stack. Cast Rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Magic of Spades",
+        "description": "Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Edward performs psychedelic card tricks, dealing DMG equal to {placeholder} of ATK and stealing all of the target's buff. Stealing has no effect on enemy leader. A success stealing grants 6% CRIT Rate for every stack. The effect lasts the entire battle and stacks up to 5 times.",
+        "lens5.skill": "When Edward appears, he steals 100% Rage from the enemy Spirit with the highest Rage and distributes it equally to all allied Spirits.",
+        "lens6.skill": "Edward deals DMG equal to {placeholder} of ATK to a single target. Before attacking, he steals 1 buff. Stealing has no effect on enemy leader. If it succeeds, it grants 12% CRIT Rate. The effect lasts the entire battle and cannot stack. Cast Rate: {placeholder}"
+    },
+    "energyCost": 16,
+    "class": "ATTACKER",
+    "faction": "LIBEROS"
+}

@@ -1,0 +1,30 @@
+{
+    "name": "Diamond",
+    "introduction": "Peacock Waiter, Partner Recycle",
+    "description": "An exotic beauty that catches the eyes of everyone. Loves being the center of attention and has the kind of charm that make people bow down to her.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Bewitching Dancer",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Diamond's Heal Rate in battle increases by {placeholder}. When she appears, Ally partner with the lowest HP is returned to the hand, and receives {placeholder} ATK, and {placeholder} HP Max.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Peacock's Veil",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"I am not Princess Iron Fan! Diamond restores HP equal to ATK * {placeholder} to the 2 allies with the lowest HP immediately, then restores HP equal to ATK * {placeholder} every round for 2 rounds. Also increases the targets' ATK by {placeholder} and DEF by {placeholder} also for 2 rounds.\"}"
+    },
+    "specialSkill": {
+        "name": "Invasive Wind",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"The peacock shows off its brilliant plumes. Diamond attacks a single enemy and deals ATK * {placeholder} damage, restoring {placeholder} Rage.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Wind Scythe",
+        "description": "Diamond swings her colorful fan. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "I am not Princess Iron Fan! Diamond restores HP equal to ATK * {placeholder} to the 2 allies with the lowest HP immediately, then restores HP equal to ATK * {placeholder} every round for 2 rounds. Also increases the targets' ATK by {placeholder} and DEF by {placeholder} also for 2 rounds.",
+        "lens5.skill": "Diamond's Heal Rate in battle increases by {placeholder}. When she appears, Ally partner with the lowest HP is returned to the hand, and receives {placeholder} ATK, and {placeholder} HP Max.",
+        "lens6.skill": "The peacock shows off its brilliant plumes. Diamond attacks a single enemy and deals ATK * {placeholder} damage, restoring {placeholder} Rage.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 16,
+    "class": "HEALER",
+    "faction": "UROBOROS"
+}

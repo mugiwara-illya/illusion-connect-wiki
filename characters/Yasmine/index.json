@@ -1,0 +1,30 @@
+{
+    "name": "Yasmine",
+    "introduction": "Peerless Musician, Spinning Dancer",
+    "description": "A violinist who pursues the pinnacle in music and is obsessive about cleanliness. Her unique ability caused her to fear human contact since young, except for Abby.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Perpetual Movement",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Yasmine appears, her amazing performance makes the enemy partners swing with the rhythm. The first two partners or summoned in each column switch places, and Yasmine gains Shield equal to {placeholder} of Max HP. Lineup Skill: Activation Requirement: Deploy Abby. Activation Effect: Reduces Yasmine's Energy cost by 1.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Devil Phantom",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Yasmine's magnificent skill amazed all enemies, reducing their DMG Rate by {placeholder} while increasing Yasmine's special skill cast rate by {placeholder} for 2 rounds (not stackable).\"}"
+    },
+    "specialSkill": {
+        "name": "Variation Waltz",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Yasmine's touching performance caused an enemy to dance merrily, dealing ATK * {placeholder} damage and switching their position with an enemy partner with the lowest HP. Ineffective against Leader.Skill cast rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Blazing Strings",
+        "description": "Deals {placeholder} of ATK damage to an enemy."
+    },
+    "templateData": {
+        "lens4.skill": "Yasmine's magnificent skill amazed all enemies, reducing their DMG Rate by {placeholder} while increasing Yasmine's special skill cast rate by {placeholder} for 2 rounds (not stackable).",
+        "lens5.skill": "When Yasmine appears, her amazing performance makes the enemy partners swing with the rhythm. The first two partners or summoned in each column switch places, and Yasmine gains Shield equal to {placeholder} of Max HP. Lineup Skill: Activation Requirement: Deploy Abby. Activation Effect: Reduces Yasmine's Energy cost by 1.",
+        "lens6.skill": "Yasmine's touching performance caused an enemy to dance merrily, dealing ATK * {placeholder} damage and switching their position with an enemy partner with the lowest HP. Ineffective against Leader.Skill cast rate: {placeholder}"
+    },
+    "energyCost": 14,
+    "class": "GUARDIAN",
+    "faction": "LIBEROS"
+}

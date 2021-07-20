@@ -1,0 +1,30 @@
+{
+    "name": "Abby",
+    "introduction": "Super Rock Star, Most Popular Singer",
+    "description": "An exchange student who hates restrictions. She's the vocalist of an indie band and believes that rock music can spread love and freedom.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Moonlight Punk",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Increases Abby's DMG to Sorcerer and Attack class by {placeholder}. Lineup Skill: Activation Requirement: Deploy Yasmine. Activation Effect: Reduces Abby's Energy cost by 1.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Metal Ode to Joy",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Abby ignites her heart of rock 'n' roll, causing all enemy fans, other than the Leader, to rush forward until all empty slots are filled. After moving, deals ATK * {placeholder} damage to a row of enemies.\"}"
+    },
+    "specialSkill": {
+        "name": "Pathétique Bash",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Abby bashes the ground with her guitar, dealing ATK * {placeholder} damage to an enemy and stuns him/her for 1 round.Skill Cast Rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Fate Movement",
+        "description": "Deals {placeholder} of ATK damage to an enemy."
+    },
+    "templateData": {
+        "lens4.skill": "Abby ignites her heart of rock 'n' roll, causing all enemy fans, other than the Leader, to rush forward until all empty slots are filled. After moving, deals ATK * {placeholder} damage to a row of enemies.",
+        "lens5.skill": "Increases Abby's DMG to Sorcerer and Attack class by {placeholder}. Lineup Skill: Activation Requirement: Deploy Yasmine. Activation Effect: Reduces Abby's Energy cost by 1.",
+        "lens6.skill": "Abby bashes the ground with her guitar, dealing ATK * {placeholder} damage to an enemy and stuns him/her for 1 round.Skill Cast Rate: {placeholder}"
+    },
+    "energyCost": 14,
+    "class": "ATTACKER",
+    "faction": "MUSCIPULA"
+}

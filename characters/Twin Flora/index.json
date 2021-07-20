@@ -1,0 +1,30 @@
+{
+    "name": "Twin Flora",
+    "introduction": "Twins dance together, flowers flow like waves.",
+    "description": "No more fear, no more worries, bravely embrace the world!",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Oath of Companionship",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Never again shall we part. Adds Twin Nono to hand at the start of battle. Twin Nono has the same Energy, attributes and skills as Twin Flora. When both Twin Flora and Twin Nono are deployed, one of them uses Unique Skill, will cause them to dance and emptying their Rage, and activate the effect of Unique Skill 2 times. When either Twin Flora or Twin Nono dies, the other will restore {placeholder} Rage.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Dance of Carlo",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Flora/Nono does the Dance of Carlo which fills the field with petals, inflicts Puppet's Grudge (increases damage taken from Attack and Sorcerer partners by {placeholder}, up to 3 stacks) on every enemy partner, and deals ATK * {placeholder} damage. For every stack of Puppet's Grudge on the target partner or summoned, deals extra true damage equal to {placeholder} of current HP.\"}"
+    },
+    "specialSkill": {
+        "name": "Joy of Promise",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"To protect each other, Flora/Nono deals ATK * {placeholder} damage to a single target. For every stack of Puppet's Grudge on the target, deals extra ATK * {placeholder} damage.Skill Cast Rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Dawn of Twins",
+        "description": "Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Flora/Nono does the Dance of Carlo which fills the field with petals, inflicts Puppet's Grudge (increases damage taken from Attack and Sorcerer partners by {placeholder}, up to 3 stacks) on every enemy partner, and deals ATK * {placeholder} damage. For every stack of Puppet's Grudge on the target partner or summoned, deals extra true damage equal to {placeholder} of current HP.",
+        "lens5.skill": "Never again shall we part. Adds Twin Nono to hand at the start of battle. Twin Nono has the same Energy, attributes and skills as Twin Flora. When both Twin Flora and Twin Nono are deployed, one of them uses Unique Skill, will cause them to dance and emptying their Rage, and activate the effect of Unique Skill 2 times. When either Twin Flora or Twin Nono dies, the other will restore {placeholder} Rage.",
+        "lens6.skill": "To protect each other, Flora/Nono deals ATK * {placeholder} damage to a single target. For every stack of Puppet's Grudge on the target, deals extra ATK * {placeholder} damage.Skill Cast Rate: {placeholder}"
+    },
+    "energyCost": 11,
+    "class": "SORCERER",
+    "faction": "LIBEROS"
+}

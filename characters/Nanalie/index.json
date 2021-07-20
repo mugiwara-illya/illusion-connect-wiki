@@ -1,0 +1,30 @@
+{
+    "name": "Nanalie",
+    "introduction": "Lazy Princess, Attack and Defense Reduction",
+    "description": "An airhead who has never had to worry about anything. Shy around strangers, but getting better and working toward becoming the woman she aspires to me.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Schrodinger's Cat",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Nanalie appears, ATK of all enemies decreases by {placeholder} and DEF by {placeholder}, lasts 15 seconds.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Sweet Dreams",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Ice crystals rain from above. Nanalie attacks an enemy row and deals ATK * {placeholder} damage.\"}"
+    },
+    "specialSkill": {
+        "name": "Manipulation",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Pierces the enemy with ice crystals. Nanalie attacks a single enemy and deals ATK * {placeholder} damage, increasing DEF Penetration by {placeholder} when attacking.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Telekinesis",
+        "description": "Nanali summons a magical crystal. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Ice crystals rain from above. Nanalie attacks an enemy row and deals ATK * {placeholder} damage.",
+        "lens5.skill": "When Nanalie appears, ATK of all enemies decreases by {placeholder} and DEF by {placeholder}, lasts 15 seconds.",
+        "lens6.skill": "Pierces the enemy with ice crystals. Nanalie attacks a single enemy and deals ATK * {placeholder} damage, increasing DEF Penetration by {placeholder} when attacking.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 10,
+    "class": "SPELL",
+    "faction": "PHOENIX"
+}

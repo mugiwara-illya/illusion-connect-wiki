@@ -1,0 +1,30 @@
+{
+    "name": "Rem",
+    "introduction": "All-Rounded Maid, 5-Combo Strikes",
+    "description": "Maid of House Roswaal, skilled housekeeper, powerful fighter!",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Oni Form",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Blocks lethal damage 1 time for Rem and restores {placeholder} Rage, increasing DMG Rate by {placeholder} and Lifesteal Rate by {placeholder} for 20 secs. This effect can be triggered once per battle.Lineup Skill: Activation Requirement: Have Ram in the lineup.Activation Effect: When 1 of allied Rem or Ram joins the battle, the other one will join the battle directly at no cost.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Morningstar",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Rem strikes an enemy with the iron ball 5 times. Each strike deals Rem's ATK * {placeholder} damage. If the target is dead, the rest strikes will be launched upon the enemies behind it until the strikes finished or no enemies left in this column.\"}"
+    },
+    "specialSkill": {
+        "name": "Speedy Stabs",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Rem attacks a single enemy and deals ATK * {placeholder} damage, increasing her ATK by {placeholder} for 2 rounds.Skill Cast Rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Sound Lock",
+        "description": "Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Rem strikes an enemy with the iron ball 5 times. Each strike deals Rem's ATK * {placeholder} damage. If the target is dead, the rest strikes will be launched upon the enemies behind it until the strikes finished or no enemies left in this column.",
+        "lens5.skill": "Blocks lethal damage 1 time for Rem and restores {placeholder} Rage, increasing DMG Rate by {placeholder} and Lifesteal Rate by {placeholder} for 20 secs. This effect can be triggered once per battle.Lineup Skill: Activation Requirement: Have Ram in the lineup.Activation Effect: When 1 of allied Rem or Ram joins the battle, the other one will join the battle directly at no cost.",
+        "lens6.skill": "Rem attacks a single enemy and deals ATK * {placeholder} damage, increasing her ATK by {placeholder} for 2 rounds.Skill Cast Rate: {placeholder}"
+    },
+    "energyCost": 12,
+    "class": "ATTACKER",
+    "faction": "TheMist"
+}

@@ -1,0 +1,30 @@
+{
+    "name": "Anna",
+    "introduction": "Angelic Singer, Best AOE Healer",
+    "description": "A beautiful older sister type that loves to take care of those around her. A popular singer of Bloomsea City and a master baker. Her snacks during tea breaks are to die for.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Popular Songstress",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Anna is present, grants all allied partners {placeholder} DMG Rate and {placeholder} DMG RES Rate.Lineup Skill:Activation Requirement: Deploy at least 5 partners of different classes.Activation Reward: When Anna is present, grants herself and allied partners deployed after Anna 10% DMG Rate and 10% DMG RES Rate.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Starlight Promise",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Anna sings a song of praise. Restores HP equal to ATK * {placeholder}  to all allies and restores {placeholder} Rage to herself.\"}"
+    },
+    "specialSkill": {
+        "name": "Sound of Nature",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Anna's smile is her best weapon. Attacks a single enemy and deals ATK * {placeholder} damage, restoring {placeholder} Rage.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Encore",
+        "description": "Anna whispers a spell. Restores HP equal to ATK * {placeholder} to the ally with the lowest HP."
+    },
+    "templateData": {
+        "lens4.skill": "Anna sings a song of praise. Restores HP equal to ATK * {placeholder}  to all allies and restores {placeholder} Rage to herself.",
+        "lens5.skill": "When Anna is present, grants all allied partners {placeholder} DMG Rate and {placeholder} DMG RES Rate.Lineup Skill:Activation Requirement: Deploy at least 5 partners of different classes.Activation Reward: When Anna is present, grants herself and allied partners deployed after Anna 10% DMG Rate and 10% DMG RES Rate.",
+        "lens6.skill": "Anna's smile is her best weapon. Attacks a single enemy and deals ATK * {placeholder} damage, restoring {placeholder} Rage.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 18,
+    "class": "HEALER",
+    "faction": "MUSCIPULA"
+}

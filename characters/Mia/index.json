@@ -1,0 +1,30 @@
+{
+    "name": "Mia",
+    "introduction": "Archaeologist, Enhance Leader",
+    "description": "She overwhelms others with her knowledge, rude words and talking speed. An archaeology nut who is highly intelligent and absorbs new information at a stunning pace thanks to her spirit lens.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Goddess of Wisdom",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Mia dies {placeholder} of her ATK and {placeholder} of her HP are transferred to the Ally Leader; her DMG Rate in battle increases by {placeholder}.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Bastet's Order",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Lets loose Pharaoh's Jade Cat to rip the enemy's armor to shreds. Mia attacks a single enemy and deals ATK * {placeholder} damage, reducing the target's DEF by {placeholder} for 2 rounds.\"}"
+    },
+    "specialSkill": {
+        "name": "Aid of Bastet",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"The Jade Cat sinks his teeth deep into the enemy. Attacks a single enemy and deals ATK * {placeholder} damage, increasing DEF Penetration by {placeholder} when attacking.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Adjudication",
+        "description": "Mia goes into a dance with her whip. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Lets loose Pharaoh's Jade Cat to rip the enemy's armor to shreds. Mia attacks a single enemy and deals ATK * {placeholder} damage, reducing the target's DEF by {placeholder} for 2 rounds.",
+        "lens5.skill": "When Mia dies {placeholder} of her ATK and {placeholder} of her HP are transferred to the Ally Leader; her DMG Rate in battle increases by {placeholder}.",
+        "lens6.skill": "The Jade Cat sinks his teeth deep into the enemy. Attacks a single enemy and deals ATK * {placeholder} damage, increasing DEF Penetration by {placeholder} when attacking.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 12,
+    "class": "ATTACKER",
+    "faction": "SEED"
+}

@@ -1,0 +1,30 @@
+{
+    "name": "Sakai",
+    "introduction": "Tobunkai Kaicho, Core of Defense",
+    "description": "In the eyes of outsiders, he became the 3rd generation leader of Tobunkai through shameless methods. He is domineering, venomous, and resolute. Under his leadership, Tobunkai quickly degenerated into an underworld organization, though it has undoubtedly reached its peak in recent years.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Armistice Awareness",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Sakai is present, the Guardian Partners' Reflect Rate increases by 50%Lineup Skill:Activation Requirement: deploy 4 or more Guardian Partners\nActivation Effect: any character's presence restores 500 Rage for a random Guardian Partner\"}"
+    },
+    "uniqueSkill": {
+        "name": "Sunrise Sword Circle",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Use the Magic Sword Awareness of the Tobun Family, make all friendly Partners immediately launch a round of attacks. At the same time, reduce the energy consumption of a random Guardian Partner (from your hand) by 4.\"}"
+    },
+    "specialSkill": {
+        "name": "Siege Breaking Slash",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Sakai deals DMG equal to ATK * {placeholder} to an enemy. At the same time, deals a 60% Splash DMG to the enemy with the lowest HPSkill Cast Rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Shadow Blade",
+        "description": "Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Use the Magic Sword Awareness of the Tobun Family, make all friendly Partners immediately launch a round of attacks. At the same time, reduce the energy consumption of a random Guardian Partner (from your hand) by 4. In addition, make all Guardian Partners in battle obtain the Taunt effect, lasting for 2 rounds.",
+        "lens5.skill": "When Sakai is present, the Guardian Partners' Reflect Rate increases by 50%Lineup Skill:Activation Requirement: deploy 4 or more Guardian Partners\nActivation Effect: any character's presence restores 500 Rage for a random Guardian Partner",
+        "lens6.skill": "Sakai deals DMG equal to ATK * {placeholder} to an enemy. At the same time, deals a 60% Splash DMG to the enemy with the lowest HPSkill Cast Rate: {placeholder}"
+    },
+    "energyCost": 16,
+    "class": "GUARDIAN",
+    "faction": "TOBUNKAI"
+}

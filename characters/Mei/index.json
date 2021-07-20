@@ -1,0 +1,30 @@
+{
+    "name": "Mei",
+    "introduction": "Ninja in the Jungle, Lit Reaper",
+    "description": "A simple and pure girl who's a little reckless and doesn't know what adults mean by \"circumstances.\" Addicted to trials and baking cakes, muchto the chagrin of the Tobunkai.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Ninja God",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Mei dies, she deals {placeholder} ATK DMG to enemy partner with lowest HP; her own CRIT Rate in battle increases by {placeholder}.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Vanquishing Shadow",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Some enemies are better off assassinated. Mei attacks the enemy partner with the lowest HP and deals ATK * {placeholder} damage.\"}"
+    },
+    "specialSkill": {
+        "name": "Chasing Shadows",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Mei attacks a single enemy and deals ATK * {placeholder} damage. If the target's HP is below 50%, then increases her CRIT by {placeholder} when attacking.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Shadow Strike",
+        "description": "Mei stabs rapidly. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Some enemies are better off assassinated. Mei attacks the enemy partner with the lowest HP and deals ATK * {placeholder} damage.",
+        "lens5.skill": "When Mei dies, she deals {placeholder} ATK DMG to enemy partner with lowest HP; her own CRIT Rate in battle increases by {placeholder}.",
+        "lens6.skill": "Mei attacks a single enemy and deals ATK * {placeholder} damage. If the target's HP is below 50%, then increases her CRIT by {placeholder} when attacking.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 12,
+    "class": "ATTACKER",
+    "faction": "TOBUNKAI"
+}

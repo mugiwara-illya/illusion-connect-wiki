@@ -1,0 +1,30 @@
+{
+    "name": "Phoebe",
+    "introduction": "Lady of Nirvana, Blessing of the Empire",
+    "description": "She is quiet, but she is constantly observing those around her. She enjoys finding people's weaknesses because it makes her feel like she's in control. And one more thing: she loves to contradict others.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Rebirth",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Phoebe's ATK in battle increases by {placeholder}. On death, she revives and receives {placeholder} ATK, {placeholder} DEF, {placeholder} HP, and {placeholder} Rage. Triggers 1 time per battle.Lineup Skill:Activation Requirement: Deploy at least 5 Light or Healing class partners.Activation Reward: When Phoebe appears, she grants Invincible status to 3 random Ally units, lasts 20 seconds.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Phoenix's Blessing",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Phoebe unleashes the power of the ancient kingdom from the scroll. Attacks the enemy team and deals ATK * {placeholder} damage, reducing the targets' DEF by {placeholder} for 10 seconds.\"}"
+    },
+    "specialSkill": {
+        "name": "Princess' Order",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"The light of the dynasty protects allies. Phoebe attacks a single enemy and deals ATK * {placeholder} damage. Grants a shield with {placeholder} HP to self and ally Leader.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Kurobane",
+        "description": "Phoebe tosses sharp Kurobane knives. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Phoebe unleashes the power of the ancient kingdom from the scroll. Attacks the enemy team and deals ATK * {placeholder} damage, reducing the targets' DEF by {placeholder} for 10 seconds.",
+        "lens5.skill": "Phoebe's ATK in battle increases by {placeholder}. On death, she revives and receives {placeholder} ATK, {placeholder} DEF, {placeholder} HP, and {placeholder} Rage. Triggers 1 time per battle.Lineup Skill:Activation Requirement: Deploy at least 5 Light or Healing class partners.Activation Reward: When Phoebe appears, she grants Invincible status to 3 random Ally units, lasts 20 seconds.",
+        "lens6.skill": "The light of the dynasty protects allies. Phoebe attacks a single enemy and deals ATK * {placeholder} damage. Grants a shield with {placeholder} HP to self and ally Leader.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 15,
+    "class": "LIGHT",
+    "faction": "PHOENIX"
+}

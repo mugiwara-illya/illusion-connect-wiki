@@ -1,6 +1,7 @@
 {
     "name": "Jason",
-    "introduction": "I will find a way to heal Nightmare Lords, even if I have to become a devil.",
+    "introduction": "Kind Doctor, Life Saver",
+    "description": "I will find a way to heal Nightmare Lords, even if I have to become a devil.",
     "class": "HEALER",
     "faction": "SEED",
     "energyCost": 18,

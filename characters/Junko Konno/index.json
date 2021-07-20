@@ -1,0 +1,30 @@
+{
+    "name": "Junko Konno",
+    "introduction": "Zombie Idol, Combo Attacks",
+    "description": "The legendary idol who ignited the idol boom during the 80s. Even after becoming a zombie, she continued her idol career as a member of the Fran Chou Chou living by her \"Showa era pride\".",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "The legendary Showa idol",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Junko's HP is near 0, she becomes Zombified, inheriting 150% ATK, 100% DEF and 100% HP. All attacks will target random single enemies and cannot gain Rage.Team Skill: Deploy Sakura, Ai and Junko.Triggered Effect: When Sakura, Ai or Junko attacks, other allied idols will launch a combo attack.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Last Song",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Attacks the enemy with the lowest HP and deals ATK * {placeholder} damage, inflicting \nAcrophobia (ineffective against Leader) to the enemy with the lowest HP. If target's Energy is above 14, doubles the damage and restores ATK * 120% HP for 2 allies with the lowest HP.\"}"
+    },
+    "specialSkill": {
+        "name": "Wake up!",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Junko deals {placeholder} damage to an enemy and reduces enemy's Heal Rate by 40%Skill Cast Rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Fran Chou Chou's No. 4",
+        "description": "Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Attacks the enemy with the lowest HP and deals ATK * {placeholder} damage, inflicting \nAcrophobia (ineffective against Leader) to the enemy with the lowest HP. If target's Energy is above 14, doubles the damage and restores ATK * 220% HP for 2 allies with the lowest HP.",
+        "lens5.skill": "When Junko's HP is near 0, she becomes Zombified, inheriting 150% ATK, 100% DEF and 100% HP. All attacks will target random single enemies and cannot gain Rage.Team Skill: Deploy Sakura, Ai and Junko.Triggered Effect: When Sakura, Ai or Junko attacks, other allied idols will launch a combo attack.",
+        "lens6.skill": "Junko deals {placeholder} damage to an enemy and reduces enemy's Heal Rate by 40%Skill Cast Rate: {placeholder}"
+    },
+    "energyCost": 13,
+    "class": "HEALER",
+    "faction": "TOBUNKAI"
+}

@@ -1,0 +1,30 @@
+{
+    "name": "Kristine",
+    "introduction": "Expert Tactician, Ruthless Whip",
+    "description": "Teacher Kristine is an instructor in SEED. Even the Ten Saints call her Teacher. She has trained numerous elites who are on the front line of defense against Nightmares.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Commander's Medal",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Attack when the enemy least expected it to turn the tide of a battle. When Kristine joins the battle, summons a random allied Guardian to the front column.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Commander's Tactic",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"An outstanding commander is decisive and knows their army. Kristine deals ATK * {placeholder} damage to a single enemy. When an allied Guardian is present, increases damage by {placeholder}.\"}"
+    },
+    "specialSkill": {
+        "name": "Commander's Strategy",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Kristine launches a fierce attack, dealing ATK * {placeholder} damage to a single enemy. When an allied Guardian is present, increases damage by {placeholder}.Skill Cast Rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Commander's Operation",
+        "description": "Kristine deals ATK * {placeholder} damage to a single enemy."
+    },
+    "templateData": {
+        "lens4.skill": "An outstanding commander is decisive and knows their army. Kristine deals ATK * {placeholder} damage to a single enemy. When an allied Guardian is present, increases damage by {placeholder}.",
+        "lens5.skill": "Attack when the enemy least expected it to turn the tide of a battle. When Kristine joins the battle, summons a random allied Guardian to the front column.",
+        "lens6.skill": "Kristine launches a fierce attack, dealing ATK * {placeholder} damage to a single enemy. When an allied Guardian is present, increases damage by {placeholder}.Skill Cast Rate: {placeholder}"
+    },
+    "energyCost": 16,
+    "class": "LIGHT",
+    "faction": "SEED"
+}

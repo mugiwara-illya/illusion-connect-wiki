@@ -1,0 +1,30 @@
+{
+    "name": "Rynda",
+    "introduction": "Fantastic Journey, Clever Mechanisms",
+    "description": "I've been searching and traveling. Let's go home, together.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Morning Star",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"A lost traveler gives a sincere gift to her cherished partner. When Rynda joins the battle, increases DMG Rate and DMG RES Rate by {placeholder} for all partners in hand. Light partners get an extra {placeholder}. Cannot be stacked.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Lion Roar",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"When Rynda is on the front row, mechanical box transforms into a protective arm, granting a shield with {placeholder} of Rynda's ATK to Rynda and the ally directly behind her. Reduces AOE DMG taken by {placeholder} for 2 rounds.When Rynda is on the middle row, mechanical box transforms into a cannon, dealing ATK*{placeholder} damage to a column of enemies. Every enemy killed restores {placeholder}Rage for Rynda and Leader.When Rynda is in the back row, mechanical box creates 2 robobirds with {placeholder} of Rynda's ATK and {placeholder} of her HP. Deals true damage (ignores DEF, Block and DMG RES Rate) and orders all robobirds to attack.\"}"
+    },
+    "specialSkill": {
+        "name": "Tin Blow",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Rynda strikes with her hammer, dealing ATK*{placeholder} damage to an enemy. Increases DMG Rate and DMG RES Rate by {placeholder} for all partners in hand (up to 3 stacks).Skill Cast Rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Straw Dance",
+        "description": "Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "When Rynda is on the front row, mechanical box transforms into a protective arm, granting a shield with {placeholder} of Rynda's ATK to Rynda and the ally directly behind her. Reduces AOE DMG taken by {placeholder} for 2 rounds.When Rynda is on the middle row, mechanical box transforms into a cannon, dealing ATK*{placeholder} damage to a column of enemies. Every enemy killed restores {placeholder}Rage for Rynda and Leader.When Rynda is in the back row, mechanical box creates 2 robobirds with {placeholder} of Rynda's ATK and {placeholder} of her HP. Deals true damage (ignores DEF, Block and DMG RES Rate) and orders all robobirds to attack.",
+        "lens5.skill": "A lost traveler gives a sincere gift to her cherished partner. When Rynda joins the battle, increases DMG Rate and DMG RES Rate by {placeholder} for all partners in hand. Light partners get an extra {placeholder}. Cannot be stacked.",
+        "lens6.skill": "Rynda strikes with her hammer, dealing ATK*{placeholder} damage to an enemy. Increases DMG Rate and DMG RES Rate by {placeholder} for all partners in hand (up to 3 stacks).Skill Cast Rate: {placeholder}"
+    },
+    "energyCost": 14,
+    "class": "LIGHT",
+    "faction": "LIBEROS"
+}

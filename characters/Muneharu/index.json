@@ -1,0 +1,30 @@
+{
+    "name": "Muneharu",
+    "introduction": "Oversized Sword, Charged Strike",
+    "description": "When I grow up, I'll take up that horseslayer and protect Mom, and you.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Moonlight Muneharu",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"I shall remove all obstacles on my master's path. Transforms {placeholder} of Muneharu's attack damage into true damage (ignores DEF, Block and DMG RES Rate).Lineup Skill:Activation Requirement: Have Saya in the lineup.Activation Effect: After Muneharu uses his first Unique Skill, instantly restores 500 Rage.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Tempest Splitter",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Muneharu gathers wind into his blade and charges energy, restoring Rage by {placeholder} per sec. Charging ends if inflicted with Freeze, Stun or Silence. If already charging, ends charging and unleashes wind from the blade, dealing ATK*{placeholder} damage to a column of enemies.\"}"
+    },
+    "specialSkill": {
+        "name": "Aqua Sunset",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Muneharu leaps into the air and bashes the ground, dealing ATK*{placeholder} damage to an enemy. If charging, restores additional {placeholder} Rage.Skill Cast Rate:{placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Sunrise Shower",
+        "description": "Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Muneharu gathers wind into his blade and charges energy, restoring Rage by {placeholder} per sec. Charging ends if inflicted with Freeze, Stun or Silence. If already charging, ends charging and unleashes wind from the blade, dealing ATK*{placeholder} damage to a column of enemies.",
+        "lens5.skill": "I shall remove all obstacles on my master's path. Transforms {placeholder} of Muneharu's attack damage into true damage (ignores DEF, Block and DMG RES Rate).Lineup Skill:Activation Requirement: Have Saya in the lineup.Activation Effect: After Muneharu uses his first Unique Skill, instantly restores 500 Rage.",
+        "lens6.skill": "Muneharu leaps into the air and bashes the ground, dealing ATK*{placeholder} damage to an enemy. If charging, restores additional {placeholder} Rage.Skill Cast Rate:{placeholder}"
+    },
+    "energyCost": 12,
+    "class": "ATTACKER",
+    "faction": "MUSCIPULA"
+}

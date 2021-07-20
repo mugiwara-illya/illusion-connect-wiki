@@ -1,0 +1,30 @@
+{
+    "name": "Natata",
+    "introduction": "Model of Nico Nico Dance, Team Weaken",
+    "description": "A famous Nico Nico dancer on Phoenix's live-broadcasting platform, and one of the most popular live bloggers, she hopes to bring joy to others with her dance and dreams of becoming another Anna.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Pure Dance",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Natata arrives, reduces the DMG RES Rate and DMG Rate of all the Partners on the enemy's side by 20% for 2 rounds.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Swan Kiss",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Deals ATK* {placeholder} DMG to all enemies. The fewer characters on the enemy side, the higher the DMG.\"}"
+    },
+    "specialSkill": {
+        "name": "Black & White Waltz",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Deals ATK* \n{placeholder}\n DMG to a single target.Reduces the target's ATK by 40% for 2 rounds. Skill Cast Rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Dancing",
+        "description": "Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Deals ATK* {placeholder} DMG to all enemies. The fewer characters on the enemy side, the higher the DMG.",
+        "lens5.skill": "When Natata arrives, reduces the DMG RES Rate and DMG Rate of all the Partners on the enemy's side by 20% for 2 rounds.",
+        "lens6.skill": "Deals ATK* \n{placeholder}\n DMG to a single target.Reduces the target's ATK by 40% for 2 rounds. Skill Cast Rate: {placeholder}"
+    },
+    "energyCost": 13,
+    "class": "SORCERER",
+    "faction": "LIBEROS"
+}

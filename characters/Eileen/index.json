@@ -1,0 +1,30 @@
+{
+    "name": "Eileen",
+    "introduction": "Energetic Assistant, Group Stun",
+    "description": "Lively and prying, Eileen is Muscipula's most entertaining guest. She likes beautiful girls but has difficulty in recognizing boys' faces.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "My Best Assistance!",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Eileen provides assistance, increasing the DMG RES Rate of Leader (excluding Eileen) and allies on the same row as Eileen by {placeholder}, and Charlotte's by an additional {placeholder}.\"}"
+    },
+    "uniqueSkill": {
+        "name": "No One Leaves!",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Eileen takes a photo of all enemies, dealing {placeholder} damage to all enemies. Has a {placeholder} chance of stunning at least {placeholder} enemies for 1 round.\"}"
+    },
+    "specialSkill": {
+        "name": "The Search Is On!",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Eileen discovers a weakness, dealing {placeholder} of ATK damage to an enemy and ignoring {placeholder} of enemy's DEF.Chance to use skill:{placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Got a Clue!",
+        "description": "Deals {placeholder} of ATK damage to an enemy."
+    },
+    "templateData": {
+        "lens4.skill": "Eileen takes a photo of all enemies, dealing {placeholder} damage to all enemies. Has a {placeholder} chance of stunning at least {placeholder} enemies for 1 round.",
+        "lens5.skill": "Eileen provides assistance, increasing the DMG RES Rate of Leader (excluding Eileen) and allies on the same row as Eileen by {placeholder}, and Charlotte's by an additional {placeholder}.",
+        "lens6.skill": "Eileen discovers a weakness, dealing {placeholder} of ATK damage to an enemy and ignoring {placeholder} of enemy's DEF.Chance to use skill:{placeholder}"
+    },
+    "energyCost": 13,
+    "class": "LIGHT",
+    "faction": "MUSCIPULA"
+}

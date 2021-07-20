@@ -1,0 +1,30 @@
+{
+    "name": "Sonia",
+    "introduction": "Extreme Madness, Sea Monster's Arrival",
+    "description": "My master hears my prayers. My master answers my call. My master will cleanse the world!",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Arrival of the Unnamable",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"I can't describe what you're about to see, just like I can't describe the excitement in my heart. When Sonia joins the battle, Sea Monster arrives and all allies in the back row fall into the abyss and fight in place of Leader. Sea Monster inherits Leader's current ATK, DEF, HP, Rage and buffs, and has the active skills Endless Whispers and Great Tribute. Sea Monster's feet inherits {placeholder} of Sonia's ATK and DEF, and {placeholder} of her HP. The feet's normal attack deals ATK * {placeholder} damage to a row of enemies. Sea Monster appears only once per battle.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Origin of Thirty-Eight",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Sonia summons a keyhole that opens to the truth by using a Trapezohedron. Deals ATK * {placeholder} damage to all enemies, restores ATK * {placeholder} HP to Sea Monster and its feet and increases their ATK by {placeholder}, up to 3 stacks and lasts for the entire battle.\"}"
+    },
+    "specialSkill": {
+        "name": "Truth of the Living",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Sonia reveals the truth of the world to the masses. Deals ATK * {placeholder} damage to a single enemy.Skill Cast Rate: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Revelation of the Beginning",
+        "description": "Deals ATK * {placeholder} damage to a single enemy."
+    },
+    "templateData": {
+        "lens4.skill": "Sonia summons a keyhole that opens to the truth by using a Trapezohedron. Deals ATK * {placeholder} damage to all enemies, restores ATK * {placeholder} HP to Sea Monster and its feet and increases their ATK by {placeholder}, up to 3 stacks and lasts for the entire battle.",
+        "lens5.skill": "I can't describe what you're about to see, just like I can't describe the excitement in my heart. When Sonia joins the battle, Sea Monster arrives and all allies in the back row fall into the abyss and fight in place of Leader. Sea Monster inherits Leader's current ATK, DEF, HP, Rage and buffs, and has the active skills Endless Whispers and Great Tribute. Sea Monster's feet inherits {placeholder} of Sonia's ATK and DEF, and {placeholder} of her HP. The feet's normal attack deals ATK * {placeholder} damage to a row of enemies. Sea Monster appears only once per battle.",
+        "lens6.skill": "Sonia reveals the truth of the world to the masses. Deals ATK * {placeholder} damage to a single enemy.Skill Cast Rate: {placeholder}"
+    },
+    "energyCost": 19,
+    "class": "SUMMONER",
+    "faction": "TheMist"
+}

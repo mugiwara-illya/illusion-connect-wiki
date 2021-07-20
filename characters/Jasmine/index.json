@@ -1,0 +1,30 @@
+{
+    "name": "Jasmine",
+    "introduction": "Young Poet, Powerful Support",
+    "description": "A shy and introverted author, but readers can get a glimpse of the fire burning inside through her work. Has a great imagination and is always curious about everything.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Poem",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Jasmine is present, ATK of all Ally units in same rank increases by {placeholder} and their DEF by {placeholder}.Lineup Skill:Activation Requirement: No more than 2 partners of any one Energy type on the Team.Activation Reward: After every action, Jasmine restores 20% HP Max to Ally partner with the lowest HP.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Arrow of Hope",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Ra bah rah! Jasmine attacks the enemy with the lowest HP and deals ATK * {placeholder} damage. Also restores HP equal to ATK * {placeholder} to the ally with the lowest HP.\"}"
+    },
+    "specialSkill": {
+        "name": "Song of Praise",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Oo lah ooh! Jasmine attacks the enemy with the lowest HP and deals ATK * {placeholder} damage. Also restores HP equal to ATK * {placeholder} to the ally with the lowest HP.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Wish",
+        "description": "Jasmine fires an arrow of love. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Ra bah rah! Jasmine attacks the enemy with the lowest HP and deals ATK * {placeholder} damage. Also restores HP equal to ATK * {placeholder} to the ally with the lowest HP.",
+        "lens5.skill": "When Jasmine is present, ATK of all Ally units in same rank increases by {placeholder} and their DEF by {placeholder}.Lineup Skill:Activation Requirement: No more than 2 partners of any one Energy type on the Team.Activation Reward: After every action, Jasmine restores 20% HP Max to Ally partner with the lowest HP.",
+        "lens6.skill": "Oo lah ooh! Jasmine attacks the enemy with the lowest HP and deals ATK * {placeholder} damage. Also restores HP equal to ATK * {placeholder} to the ally with the lowest HP.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 13,
+    "class": "HEALER",
+    "faction": "MUSCIPULA"
+}

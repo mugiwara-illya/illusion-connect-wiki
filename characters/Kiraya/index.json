@@ -1,0 +1,30 @@
+{
+    "name": "Kiraya",
+    "introduction": "Lionheart Warrior, Column Shield",
+    "description": "Kiraya likes to shatter doubts with her fists. With great combat prowess and an unbendable will, people submit themselves to her, sometimes even with a hint of trust, as if she will protect them from all evil.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Lionheart",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Kiraya appears, she grants a {placeholder} HP Shield, and enemy's Rage Restore decreases by {placeholder}, lasts 10 seconds.Lineup Skill:Activation Requirement: Deploy at least 5 Light or Healing class partners.Activation Reward: Recovery Rate of all Ally partners increases by 50%.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Lionheart Frenzy",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"A majestic Lionheart strike. Kiraya attacks a single enemy and deals ATK * {placeholder} damage. Grants a shield equal to {placeholder} of the caster's HP to allies in the same column.\"}"
+    },
+    "specialSkill": {
+        "name": "Fury",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Stabs a claymore into the earth. Kiraya attacks a single enemy and deals ATK * {placeholder} damage, gaining a shield that equals {placeholder} of her HP.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Upper Slash",
+        "description": "Kiraya swings her claymore upward. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "A majestic Lionheart strike. Kiraya attacks a single enemy and deals ATK * {placeholder} damage. Grants a shield equal to {placeholder} of the caster's HP to allies in the same column.",
+        "lens5.skill": "When Kiraya appears, she grants a {placeholder} HP Shield, and enemy's Rage Restore decreases by {placeholder}, lasts 10 seconds.Lineup Skill:Activation Requirement: Deploy at least 5 Light or Healing class partners.Activation Reward: Recovery Rate of all Ally partners increases by 50%.",
+        "lens6.skill": "Stabs a claymore into the earth. Kiraya attacks a single enemy and deals ATK * {placeholder} damage, gaining a shield that equals {placeholder} of her HP.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 15,
+    "class": "GUARDIAN",
+    "faction": "SEED"
+}

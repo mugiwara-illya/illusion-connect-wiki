@@ -1,0 +1,30 @@
+{
+    "name": "Matthew",
+    "introduction": "Green Beret Boy, HP Reduction",
+    "description": "The steward of the Houou Family, he is always too nice to others and likes to talk to himself.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Top Steward",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"\"}"
+    },
+    "uniqueSkill": {
+        "name": "Pixie's Mark",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"\"}"
+    },
+    "specialSkill": {
+        "name": "Wander Dash",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"\"}"
+    },
+    "normalSkill": {
+        "name": "Blink",
+        "description": "Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "",
+        "lens5.skill": "",
+        "lens6.skill": ""
+    },
+    "energyCost": 30,
+    "class": "ATTACKER",
+    "faction": "PHOENIX"
+}

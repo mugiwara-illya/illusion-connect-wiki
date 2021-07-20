@@ -1,0 +1,30 @@
+{
+    "name": "Selena",
+    "introduction": "Noble Lady, Leader Healing",
+    "description": "An elegant, well-behaved and kind knight, and a natural born commander with great leadership skills and the power to rally supporters. Very popular among the people.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Golden Time",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Selena increases HP Max by {placeholder}, and gains 2 Immunity to Fatal DMG per battle.Lineup Skill:Activation Requirement: Average Lineup Energy greater than or equal to 14.Activation Reward: Whenever an Ally partner appears, she grants the Leader a Shield equal to 10% of her own HP.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Divine Judgment",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"The judgment of light shines with the knight's compassion. Attacks a single enemy and deals ATK * {placeholder} damage, {placeholder} of which is used to heal the Leader.\"}"
+    },
+    "specialSkill": {
+        "name": "Divine Force",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"The divine lance will purify all sins. Attacks a single enemy and deals ATK * {placeholder} damage,  {placeholder} of which heals the ally partner with the lowest HP.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Quick Stab",
+        "description": "Selena raises her spear and charges. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "The judgment of light shines with the knight's compassion. Attacks a single enemy and deals ATK * {placeholder} damage, {placeholder} of which is used to heal the Leader.",
+        "lens5.skill": "Selena increases HP Max by {placeholder}, and gains 2 Immunity to Fatal DMG per battle.Lineup Skill:Activation Requirement: Average Lineup Energy greater than or equal to 14.Activation Reward: Whenever an Ally partner appears, she grants the Leader a Shield equal to 10% of her own HP.",
+        "lens6.skill": "The divine lance will purify all sins. Attacks a single enemy and deals ATK * {placeholder} damage,  {placeholder} of which heals the ally partner with the lowest HP.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 15,
+    "class": "GUARDIAN",
+    "faction": "PHOENIX"
+}

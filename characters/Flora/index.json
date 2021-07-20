@@ -1,0 +1,30 @@
+{
+    "name": "Flora",
+    "introduction": "Puppet Master, Clones of Death",
+    "description": "Flora was born with a disease, and that has made her thin and frail, almost like a porcelain doll. She can only stay inside, but her magical hands create the most intricate dolls that almost look alive.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Puppeteer",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Flora's HP Max in battle increases by {placeholder}; she splits into two units on her death.Puppet Nono receives {placeholder} ATK, {placeholder} DEF, and {placeholder} HP.Flora receives {placeholder} ATK, {placeholder} DEF, and {placeholder} HP.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Puppet Stab",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Light the liar's pants on fire! Flora attacks a single enemy and deals ATK * {placeholder} damage.\"}"
+    },
+    "specialSkill": {
+        "name": "Puppet String",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Bad guys must die! Flora attacks a single enemy and deals ATK * {placeholder} damage, reducing the target's DEF by {placeholder} for 2 rounds.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Puppet Control",
+        "description": "Flora and the puppet work together to fire a cog. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Light the liar's pants on fire! Flora attacks a single enemy and deals ATK * {placeholder} damage.",
+        "lens5.skill": "Flora's HP Max in battle increases by {placeholder}; she splits into two units on her death.Puppet Nono receives {placeholder} ATK, {placeholder} DEF, and {placeholder} HP.Flora receives {placeholder} ATK, {placeholder} DEF, and {placeholder} HP.",
+        "lens6.skill": "Bad guys must die! Flora attacks a single enemy and deals ATK * {placeholder} damage, reducing the target's DEF by {placeholder} for 2 rounds.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 12,
+    "class": "SUMMONER",
+    "faction": "LIBEROS"
+}

@@ -1,0 +1,30 @@
+{
+    "name": "Lily",
+    "introduction": "Loving Doctor, Deathrattle Heal",
+    "description": "A nurse that is professional, patient and a little bit stubborn. She wants all her patients to stay in bed and recover, and sometimes goes as far as strapping them down, locking them up, or more...",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Medicine Box",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Lily dies, all Ally units restore HP equal to {placeholder} ATK, and target's DEF increases by {placeholder}, lasts for 2 rounds.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Healing Hands",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Oh no! I spilled! Lily restores HP equal to ATK * {placeholder} for the 2 allies with the lowest HP.\"}"
+    },
+    "specialSkill": {
+        "name": "More Meds",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"The pills! Lily restores HP equal to ATK * {placeholder} to the ally with the lowest HP, increasing the target's DEF by {placeholder} for 2 rounds.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Pill Time",
+        "description": "Lily tosses a huge pill. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Oh no! I spilled! Lily restores HP equal to ATK * {placeholder} for the 2 allies with the lowest HP.",
+        "lens5.skill": "When Lily dies, all Ally units restore HP equal to {placeholder} ATK, and target's DEF increases by {placeholder}, lasts for 2 rounds.",
+        "lens6.skill": "The pills! Lily restores HP equal to ATK * {placeholder} to the ally with the lowest HP, increasing the target's DEF by {placeholder} for 2 rounds.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 9,
+    "class": "HEALER",
+    "faction": "SEED"
+}

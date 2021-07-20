@@ -1,0 +1,30 @@
+{
+    "name": "Nicola",
+    "introduction": "Bloody Demon, Guardian Killer",
+    "description": "As a vampire, she hates rules and anything that is not fun. Loves to destroy things and is very peculiar about blood and killing, because it's her only solace.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Revenge Angel",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Nicola's Lifesteal Rate in battle increases by {placeholder}, and her attacks decrease the target's DMG RES Rate by {placeholder}, lasts 3 rounds.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Lethal Flame",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Nicola incinerates those in her way. Attacks 2 enemies and deals ATK * {placeholder} damage. Enemies with high HP are attacked first.\"}"
+    },
+    "specialSkill": {
+        "name": "Red Pact",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"One snap of a finger brings devastation. Nicola attacks an enemy and deals ATK * {placeholder} damage. Enemy partner with the highest HP will be attacked first. Increases Lifesteal Rate by {placeholder} while attacking.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Bloody Ambush",
+        "description": "Nicola ambushes the target with her bloody dagger. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Nicola incinerates those in her way. Attacks 3 enemies and deals ATK * {placeholder} damage. Enemies with high HP are attacked first.",
+        "lens5.skill": "Nicola's Lifesteal Rate in battle increases by {placeholder}, and her attacks decrease the target's DMG RES Rate by {placeholder}, lasts 3 rounds.",
+        "lens6.skill": "One snap of a finger brings devastation. Nicola attacks an enemy and deals ATK * {placeholder} damage. Enemy partner with the highest HP will be attacked first. Increases Lifesteal Rate by {placeholder} while attacking.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 15,
+    "class": "SORCERER",
+    "faction": "UROBOROS"
+}

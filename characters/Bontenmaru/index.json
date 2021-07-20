@@ -1,0 +1,30 @@
+{
+    "name": "Bontenmaru",
+    "introduction": "Young Master, Attack Killer",
+    "description": "The little rascal of the Date family. He is wild, arrogant, and ambitious. The Tobunkai doesn't know what to do with him. The only person who can keep him down is Sachiko, his childhood friend.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Dual Sword",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Bontenmaru increases DMG RES Rate by {placeholder}; DMG to Attack class increases by {placeholder}.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Bonten Ranbu",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Bontenmaru bursts into a dance of blades. Attacks a single enemy and deals ATK * {placeholder} damage. Attack-based enemy partners will be attacked first.\"}"
+    },
+    "specialSkill": {
+        "name": "Hawk Strike",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"A strike from above. Bontenmaru attacks a single enemy and deals ATK * {placeholder} damage. Attack-based classes are attacked first. Reduces the target's DMG Rate by {placeholder} for 2 rounds.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Air Split",
+        "description": "Bontenmaru launches a cross slash. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Bontenmaru bursts into a dance of blades. Attacks a single enemy and deals ATK * {placeholder} damage. Attack-based enemy partners will be attacked first.",
+        "lens5.skill": "Bontenmaru increases DMG RES Rate by {placeholder}; DMG to Attack class increases by {placeholder}.",
+        "lens6.skill": "A strike from above. Bontenmaru attacks a single enemy and deals ATK * {placeholder} damage. Attack-based classes are attacked first. Reduces the target's DMG Rate by {placeholder} for 2 rounds.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 15,
+    "class": "GUARDIAN",
+    "faction": "TOBUNKAI"
+}

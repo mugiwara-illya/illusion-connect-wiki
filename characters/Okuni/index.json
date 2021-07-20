@@ -1,0 +1,30 @@
+{
+    "name": "Okuni",
+    "introduction": "Unmatched Majesty, High-Speed Rage Recovery",
+    "description": "Izanami's soul lives in Okuni's body. Izanami was once innocent and kind. However, vicious human thoughts gradually wore down her soul after coming to the real world, following Strictness. It was her aversion and fear of aging and deception that finally led her to down the path of evil.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "The Other Shore",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Okuni gains 40% Single DMG RES Rate. Team Skill: Trigger Requirement: The team includes at least 6 Guardian/Light partners. Triggered Effect: When Okuni is present, all Guardian characters gain a shield that grants them an additional 100% HP.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Gorgeous Blooming",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Izanami deals ATK * {placeholder} DMG to all enemies, and restores 150 Rage when hitting an enemy. Up to 450 points of Rage can be restored.\"}"
+    },
+    "specialSkill": {
+        "name": "Yomi Dance",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Waving the Azure Umbrella, Okuni deals ATK * {placeholder} DMG to a single target. Increases Special Skill Cast Rate of 2 random allied units by 100% for 1 round.Skill Cast Rate: {placeholder}.\"}"
+    },
+    "normalSkill": {
+        "name": "Filthy Heart",
+        "description": "Okuni deals ATK * {placeholder} DMG to a single target."
+    },
+    "templateData": {
+        "lens4.skill": "Izanami deals ATK * {placeholder} DMG to all enemies, and restores 150 Rage when hitting an enemy. Up to 450 points of Rage can be restored.",
+        "lens5.skill": "Okuni gains 40% Single DMG RES Rate. Team Skill: Trigger Requirement: The team includes at least 6 Guardian/Light partners. Triggered Effect: When Okuni is present, all Guardian characters gain a shield that grants them an additional 100% HP.",
+        "lens6.skill": "Waving the Azure Umbrella, Okuni deals ATK * {placeholder} DMG to a single target. Increases Special Skill Cast Rate of 2 random allied units by 100% for 1 round.Skill Cast Rate: {placeholder}."
+    },
+    "energyCost": 15,
+    "class": "LIGHT",
+    "faction": "UROBOROS"
+}

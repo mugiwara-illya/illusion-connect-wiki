@@ -1,0 +1,30 @@
+{
+    "name": "Carol",
+    "introduction": "Adorable Thief, Enhanced Stealing",
+    "description": "An energetic girl who is interested in everything and anything. Athletic and has a big brain. Her powers of observation and stamina make her the best scout of the Nightmare Lab.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Street Thug",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"For 3 rounds after Carol appears, every attack decreases target's ATK by {placeholder}, lasts 10 seconds; her own ATK in battle increases by {placeholder}.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Home Run",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Hits a miraculous homerun! Carol attacks a single enemy and deals ATK * {placeholder} damage, stealing 2 [enhance effects] from the target.\"}"
+    },
+    "specialSkill": {
+        "name": "Head Bang",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Spins, leaps and headbutts from above. Attacks a single enemy and deals ATK * {placeholder} damage, stealing 1 enhancement effect from the enemy.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Collision",
+        "description": "Carol swings her weapon and slashes at the target. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Hits a miraculous homerun! Carol attacks a single enemy and deals ATK * {placeholder} damage, stealing 2 [enhance effects] from the target.",
+        "lens5.skill": "For 3 rounds after Carol appears, every attack decreases target's ATK by {placeholder}, lasts 10 seconds; her own ATK in battle increases by {placeholder}.",
+        "lens6.skill": "Spins, leaps and headbutts from above. Attacks a single enemy and deals ATK * {placeholder} damage, stealing 1 enhancement effect from the enemy.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 9,
+    "class": "ATTACKER",
+    "faction": "PHOENIX"
+}

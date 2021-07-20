@@ -1,0 +1,30 @@
+{
+    "name": "Chiyo",
+    "introduction": "Novice Samurai, Sorcerer Enhancement",
+    "description": "A petit girl that wants to become stronger. Loves to eat and firmly believes it's the only way to get better.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Red Tiger",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Chiyo appears, DMG Rate of allied Leader and all Sorcerer class partners in hand increases by {placeholder}. If there are more than 4 Sorcerers in lineup, DMG Rate increases to {placeholder} for 3 rounds.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Fiery Invader",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Chiyo's assault resembles a wild fire. Attacks an enemy row and deals ATK * {placeholder} damage, increasing CRIT Rate by {placeholder} .\"}"
+    },
+    "specialSkill": {
+        "name": "Gale",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Chiyo moves like the wind. Attacks a single enemy and deals ATK * {placeholder} damage, increasing DMG Rate of all ally sorcerers by {placeholder} .Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Tiger Roar",
+        "description": "Chiyo unleashes her ninjutsu. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Chiyo's assault resembles a wild fire. Attacks an enemy row and deals ATK * {placeholder} damage, increasing CRIT Rate by {placeholder} .",
+        "lens5.skill": "When Chiyo appears, DMG Rate of allied Leader and all Sorcerer class partners in hand increases by {placeholder}. If there are more than 4 Sorcerers in lineup, DMG Rate increases to {placeholder} for 3 rounds.",
+        "lens6.skill": "Chiyo moves like the wind. Attacks a single enemy and deals ATK * {placeholder} damage, increasing DMG Rate of all ally sorcerers by {placeholder} .Chance to use skill: {placeholder}"
+    },
+    "energyCost": 10,
+    "class": "SORCERER",
+    "faction": "TOBUNKAI"
+}

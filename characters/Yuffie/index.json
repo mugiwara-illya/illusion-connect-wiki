@@ -1,0 +1,30 @@
+{
+    "name": "Yuffie",
+    "introduction": "Rebirth Witch, High Cost Counter",
+    "description": "Known as the Witch of Reincarnation, Yuffie is fickle and hard to read. What looks to be on a whim is actually a calculated step. Loves to tease young men that she comes across.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Reincarnation",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Yuffie's ATK in battle increases by {placeholder}. When present, AOE DMG of all Ally units increases by {placeholder}, with effect doubled for Yuffie.Lineup Skill:Activation Requirement: Deploy at least 5 Sorcerer class partners.Activation Effect: Ally partners of Sorcerer class deal 20% additional DMG to enemy partners with Energy greater than or equal to 14.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Abyss",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Yuffie devours enemies with the maw of the abyss. Attacks the enemy team and deals ATK * {placeholder} damage. Enemies with 14 or more energy take an additional {placeholder} damage.\"}"
+    },
+    "specialSkill": {
+        "name": "Despair",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Yuffie destroys enemies with her Abyss claymore. Attacks an enemy column and deals ATK * {placeholder} damage. Enemy partners with 14 or more energy take additional {placeholder} damage.Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Misery",
+        "description": "Yuffie casts dark magic. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "Yuffie devours enemies with the maw of the abyss. Attacks the enemy team and deals ATK * {placeholder} damage. Enemies with 14 or more energy take an additional {placeholder} damage.",
+        "lens5.skill": "Yuffie's ATK in battle increases by {placeholder}. When present, AOE DMG of all Ally units increases by {placeholder}, with effect doubled for Yuffie.Lineup Skill:Activation Requirement: Deploy at least 5 Sorcerer class partners.Activation Effect: Ally partners of Sorcerer class deal 20% additional DMG to enemy partners with Energy greater than or equal to 14.",
+        "lens6.skill": "Yuffie destroys enemies with her Abyss claymore. Attacks an enemy column and deals ATK * {placeholder} damage. Enemy partners with 14 or more energy take additional {placeholder} damage.Chance to use skill: {placeholder}"
+    },
+    "energyCost": 14,
+    "class": "SORCERER",
+    "faction": "LIBEROS"
+}

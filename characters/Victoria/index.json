@@ -1,0 +1,30 @@
+{
+    "name": "Victoria",
+    "introduction": "Dream Knight, Team Taunt",
+    "description": "Straight forward, humble, self-disciplined, honest and full of justice. Responsible and always ready to sacrifice herself for others. Always in the front to protect everyone else. Oh, and easily moved by big words and the people around her.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Guardian Knight",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"When Victoria appears, she grants a {placeholder} HP Shield. If Saya and Nina are on the Team, Shield value increases by an additional {placeholder}; her own Block Rate in battle increases by {placeholder}.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Thunderblast",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"With the sword and the shield as one, nothing may stand in its way. Victoria attacks a single enemy and deals ATK * {placeholder} damage. Taunts all enemies for 2 rounds.\"}"
+    },
+    "specialSkill": {
+        "name": "Undying Bash",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"The sword that banishes evil has been unsheathed. Victoria attacks a single enemy and deals ATK * {placeholder} damage, increasing Block Rate by {placeholder} .Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Crush",
+        "description": "Victoria swings her sword. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "With the sword and the shield as one, nothing may stand in its way. Victoria attacks a single enemy and deals ATK * {placeholder} damage. Taunts the enemy team for 2 rounds.",
+        "lens5.skill": "When Victoria appears, she grants a {placeholder} HP Shield. If Saya and Nina are on the Team, Shield value increases by an additional {placeholder}; her own Block Rate in battle increases by {placeholder}.",
+        "lens6.skill": "The sword that banishes evil has been unsheathed. Victoria attacks a single enemy and deals ATK * {placeholder} damage, increasing Block Rate by {placeholder} .Chance to use skill: {placeholder}"
+    },
+    "energyCost": 14,
+    "class": "GUARDIAN",
+    "faction": "MUSCIPULA"
+}

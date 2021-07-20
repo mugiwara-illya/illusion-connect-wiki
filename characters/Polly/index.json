@@ -1,0 +1,30 @@
+{
+    "name": "Polly",
+    "introduction": "Violent Nurse, Leader Healer",
+    "description": "A sexy and kind nurse, she is a little stubborn, likes to play tricks and talks vaguely when dealing with people. Great at what she does and strangely prefers injections over everything else when treating patients.",
+    "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
+    "passiveSkill": {
+        "name": "Goddess of Revenge",
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Effect of Polly's heals on Ally Leader increases by {placeholder}, and her Heal Rate in battle increases by {placeholder}.\"}"
+    },
+    "uniqueSkill": {
+        "name": "Extreme Restoration",
+        "description": "${d.lens4.skill ? d.lens4.skill : \"I am going to poke you! Polly restores HP equal to ATK * {placeholder} to the entire team. Further restores HP equal to ATK * {placeholder} to the Leader for 3 rounds.\"}"
+    },
+    "specialSkill": {
+        "name": "Will-o'-the-Wisp",
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Serves you right! Polly attacks a single enemy and deals ATK * {placeholder} damage, dispelling 1 enhancement effect from the target. Chance to use skill: {placeholder}\"}"
+    },
+    "normalSkill": {
+        "name": "Injection",
+        "description": "Polly stabs her opponent with a syringe. Attacks a single enemy and deals ATK * {placeholder} damage."
+    },
+    "templateData": {
+        "lens4.skill": "I am going to poke you! Polly restores HP equal to ATK * {placeholder} to the entire team. Further restores HP equal to ATK * {placeholder} to the Leader for 3 rounds.",
+        "lens5.skill": "Effect of Polly's heals on Ally Leader increases by {placeholder}, and her Heal Rate in battle increases by {placeholder}.",
+        "lens6.skill": "Serves you right! Polly attacks a single enemy and deals ATK * {placeholder} damage, dispelling 1 enhancement effect from the target. Chance to use skill: {placeholder}"
+    },
+    "energyCost": 14,
+    "class": "HEALER",
+    "faction": "MUSCIPULA"
+}
