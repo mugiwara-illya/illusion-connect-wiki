@@ -9,7 +9,7 @@
     },
     "uniqueSkill": {
         "name": "Last Song",
-        "description": "${d.lens4.skill ? d.lens4.skill : \"Attacks the enemy with the lowest HP and deals ATK * {placeholder} damage, inflicting \nAcrophobia (ineffective against Leader) to the enemy with the lowest HP. If target's Energy is above 14, doubles the damage and restores ATK * 120% HP for 2 allies with the lowest HP.\"}"
+        "description": "${d.lens4.skill ? d.lens4.skill : \"Attacks the enemy with the lowest HP and deals ATK * {placeholder} damage, inflicting Acrophobia (ineffective against Leader) to the enemy with the lowest HP. If target's Energy is above 14, doubles the damage and restores ATK * 120% HP for 2 allies with the lowest HP.\"}"
     },
     "specialSkill": {
         "name": "Wake up!",
@@ -20,7 +20,7 @@
         "description": "Attacks a single enemy and deals ATK * {placeholder} damage."
     },
     "templateData": {
-        "lens4.skill": "Attacks the enemy with the lowest HP and deals ATK * {placeholder} damage, inflicting \nAcrophobia (ineffective against Leader) to the enemy with the lowest HP. If target's Energy is above 14, doubles the damage and restores ATK * 220% HP for 2 allies with the lowest HP.",
+        "lens4.skill": "Attacks the enemy with the lowest HP and deals ATK * {placeholder} damage, inflicting Acrophobia (ineffective against Leader) to the enemy with the lowest HP. If target's Energy is above 14, doubles the damage and restores ATK * 220% HP for 2 allies with the lowest HP.",
         "lens5.skill": "When Junko's HP is near 0, she becomes Zombified, inheriting 150% ATK, 100% DEF and 100% HP. All attacks will target random single enemies and cannot gain Rage.Team Skill: Deploy Sakura, Ai and Junko.Triggered Effect: When Sakura, Ai or Junko attacks, other allied idols will launch a combo attack.",
         "lens6.skill": "Junko deals {placeholder} damage to an enemy and reduces enemy's Heal Rate by 40%Skill Cast Rate: {placeholder}"
     },

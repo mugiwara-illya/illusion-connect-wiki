@@ -5,7 +5,7 @@
     "attributes": "${d.lens4.attribute} ${d.lens5.attribute} ${d.awakening.attribute}",
     "passiveSkill": {
         "name": "Siren's Heart",
-        "description": "${d.lens5.skill ? d.lens5.skill : \"Each time a Buff is dispelled, Elena's DMG Rate is increased by \n5%\n. Stacks up to \n6\n times.\"}"
+        "description": "${d.lens5.skill ? d.lens5.skill : \"Each time a Buff is dispelled, Elena's DMG Rate is increased by 5%. Stacks up to 6 times.\"}"
     },
     "uniqueSkill": {
         "name": "Rage Waves",
@@ -13,7 +13,7 @@
     },
     "specialSkill": {
         "name": "Tide",
-        "description": "${d.lens6.skill ? d.lens6.skill : \"Deals ATK* \n{placeholder}\n DMG to a single target.Restores HP equal to ATK * 120% to the ally with the lowest HPSkill Cast Rate: {placeholder}\"}"
+        "description": "${d.lens6.skill ? d.lens6.skill : \"Deals ATK* {placeholder} DMG to a single target.Restores HP equal to ATK * 120% to the ally with the lowest HPSkill Cast Rate: {placeholder}\"}"
     },
     "normalSkill": {
         "name": "Falling Water",
@@ -21,8 +21,8 @@
     },
     "templateData": {
         "lens4.skill": "Deals ATK* {placeholder} DMG to all enemies. Dispels 2 buffs of all partners on the enemy side. And if there is a Death RES effect, it will be dispelled first. Dispels 2 debuffs of all allied partners.",
-        "lens5.skill": "Each time a Buff is dispelled, Elena's DMG Rate is increased by \n5%\n. Stacks up to \n6\n times.",
-        "lens6.skill": "Deals ATK* \n{placeholder}\n DMG to a single target.Restores HP equal to ATK * 120% to the ally with the lowest HPSkill Cast Rate: {placeholder}"
+        "lens5.skill": "Each time a Buff is dispelled, Elena's DMG Rate is increased by 5%. Stacks up to 6 times.",
+        "lens6.skill": "Deals ATK* {placeholder} DMG to a single target.Restores HP equal to ATK * 120% to the ally with the lowest HPSkill Cast Rate: {placeholder}"
     },
     "energyCost": 16,
     "class": "SORCERER",
